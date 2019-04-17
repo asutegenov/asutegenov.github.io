@@ -1,0 +1,15 @@
+.box-cardImg {
+    width: 600px;
+}
+
+@media (max-width: 800px) {
+    .box-cardImg {
+        width: 500px;
+    }
+}
+
+@media (max-width: 550px) {
+    .box-cardImg {
+        width: 350px;
+    }
+}

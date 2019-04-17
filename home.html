@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="home.html"><i class="far fa-bookmark text-danger"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="buttons.html">Buttons</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid" style="margin-top:1rem;">
+        <div class="container" style="text-align: center;">
+            <h1 class="text-secondary">My First <mark style="background-color:red; color:white;">Bootstrap</mark> Page</h1>
+            <p class="lead text-secondary display-4">This is some text</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin:1rem;">
+        <div class="col">
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item"><a href="#menu1" data-toggle="tab" class="nav-link active">Menu 1</a></li>
+                <li class="nav-item"><a href="#menu2" data-toggle="tab" class="nav-link">Menu 2</a></li>
+                <li class="nav-item"><a href="#menu3" data-toggle="tab" class="nav-link">Menu 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab-pane container active" id="menu1">
+            <div class="box-cardImg">
+                <div class="card img-fluid" style="margin: 1rem;">
+                    <img src="html.jpg" alt="html" class="card-img-top">
+                    <div class="card-body">
+                        <h1 class="display-4">Alex Utegenov</h1>
+                        <p class="card-text">Frontend Developer</p>
+                        <a href="http://ironote.app/" class="btn btn-primary stretched-link" target="_blank">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane container" id="menu2" style="margin-top:1rem;">
+            <div class="col">
+                <div class="container">
+                    <div id="accordion">
+    
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#collapseOne" class="card-link" data-toggle="collapse">Item #1</a>
+                            </div>
+                            <div id="collapseOne" class="collapse" data-parent="#accordion">
+                                <div class="card-body" >
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra est vitae purus ornare malesuada. Ut lacinia porta neque sed consectetur. Phasellus congue ante vel fringilla consectetur. Aliquam tincidunt, nisl sed tristique viverra, risus orci accumsan sem, eu blandit tortor lacus nec urna. Fusce pretium pharetra fermentum. Nam vel magna non leo accumsan scelerisque. In eleifend enim quis tellus feugiat lobortis. Mauris ligula lorem, venenatis vitae tortor in, dictum sodales ex. In elementum eros id tortor finibus mollis. Curabitur non varius massa. Nullam sit amet commodo est, eu pulvinar nulla. Quisque sodales imperdiet ante sit amet convallis. Praesent nec neque et ligula ultrices ullamcorper vitae non risus. Maecenas vitae vehicula odio. Morbi pulvinar accumsan lacinia.
+                                    Phasellus sit amet nisi volutpat, pellentesque dolor scelerisque, laoreet ante. Suspendisse fringilla ipsum non sem tempor, lacinia egestas nisl pretium. Nunc vestibulum urna eu suscipit posuere. Vestibulum lobortis libero sed enim efficitur, at volutpat urna euismod. Nunc ac lectus nibh. Duis laoreet gravida enim, nec molestie arcu condimentum sed. Etiam non tristique diam, nec iaculis dolor.
+                                    Aliquam suscipit vitae ipsum non accumsan. Donec a cursus ex, vitae varius odio. Donec laoreet et dui a euismod. Nam lectus ligula, pharetra vitae laoreet vel, aliquam vitae mi. Mauris iaculis dui ac porttitor porttitor. Phasellus fermentum, mauris consequat ultrices rhoncus, quam nibh pharetra dui, sit amet auctor ante mi in erat. Etiam sed consequat ante. Nunc eget eleifend mauris.
+                                    Pellentesque at sollicitudin nisl. Nam pharetra eu odio non tristique. Phasellus molestie fermentum porta. Duis placerat eget magna non sodales. Quisque ex odio, feugiat vitae finibus a, dapibus ac ipsum. Pellentesque eu odio vel magna vulputate consectetur. Donec ullamcorper elit vitae dui viverra venenatis. Proin id facilisis libero, et tempor odio. Nulla quis dictum nibh. Sed sit amet consequat sapien. Fusce porta lectus at nisl semper venenatis.
+                                    Morbi eget egestas ex. Donec consectetur elit nec nisl consequat, at vestibulum orci suscipit. Suspendisse at tortor sed ex laoreet lacinia. Morbi ut nisi pellentesque, consectetur ligula et, pretium felis. Phasellus diam nibh, bibendum eu vehicula in, dictum et nunc. Vestibulum condimentum, purus et ornare finibus, lectus eros varius ipsum, nec feugiat urna augue eget arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc tempus velit nec ipsum semper, nec vehicula sem egestas. 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#collapseTwo" class="card-link" data-toggle="collapse">Item #2</a>
+                            </div>
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                <div class="card-body" >
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra est vitae purus ornare malesuada. Ut lacinia porta neque sed consectetur. Phasellus congue ante vel fringilla consectetur. Aliquam tincidunt, nisl sed tristique viverra, risus orci accumsan sem, eu blandit tortor lacus nec urna. Fusce pretium pharetra fermentum. Nam vel magna non leo accumsan scelerisque. In eleifend enim quis tellus feugiat lobortis. Mauris ligula lorem, venenatis vitae tortor in, dictum sodales ex. In elementum eros id tortor finibus mollis. Curabitur non varius massa. Nullam sit amet commodo est, eu pulvinar nulla. Quisque sodales imperdiet ante sit amet convallis. Praesent nec neque et ligula ultrices ullamcorper vitae non risus. Maecenas vitae vehicula odio. Morbi pulvinar accumsan lacinia.
+                                    Phasellus sit amet nisi volutpat, pellentesque dolor scelerisque, laoreet ante. Suspendisse fringilla ipsum non sem tempor, lacinia egestas nisl pretium. Nunc vestibulum urna eu suscipit posuere. Vestibulum lobortis libero sed enim efficitur, at volutpat urna euismod. Nunc ac lectus nibh. Duis laoreet gravida enim, nec molestie arcu condimentum sed. Etiam non tristique diam, nec iaculis dolor.
+                                    Aliquam suscipit vitae ipsum non accumsan. Donec a cursus ex, vitae varius odio. Donec laoreet et dui a euismod. Nam lectus ligula, pharetra vitae laoreet vel, aliquam vitae mi. Mauris iaculis dui ac porttitor porttitor. Phasellus fermentum, mauris consequat ultrices rhoncus, quam nibh pharetra dui, sit amet auctor ante mi in erat. Etiam sed consequat ante. Nunc eget eleifend mauris.
+                                    Pellentesque at sollicitudin nisl. Nam pharetra eu odio non tristique. Phasellus molestie fermentum porta. Duis placerat eget magna non sodales. Quisque ex odio, feugiat vitae finibus a, dapibus ac ipsum. Pellentesque eu odio vel magna vulputate consectetur. Donec ullamcorper elit vitae dui viverra venenatis. Proin id facilisis libero, et tempor odio. Nulla quis dictum nibh. Sed sit amet consequat sapien. Fusce porta lectus at nisl semper venenatis.
+                                    Morbi eget egestas ex. Donec consectetur elit nec nisl consequat, at vestibulum orci suscipit. Suspendisse at tortor sed ex laoreet lacinia. Morbi ut nisi pellentesque, consectetur ligula et, pretium felis. Phasellus diam nibh, bibendum eu vehicula in, dictum et nunc. Vestibulum condimentum, purus et ornare finibus, lectus eros varius ipsum, nec feugiat urna augue eget arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc tempus velit nec ipsum semper, nec vehicula sem egestas. 
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#collapseThree" class="card-link" data-toggle="collapse">Item #3</a>
+                            </div>
+                            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                <div class="card-body" >
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra est vitae purus ornare malesuada. Ut lacinia porta neque sed consectetur. Phasellus congue ante vel fringilla consectetur. Aliquam tincidunt, nisl sed tristique viverra, risus orci accumsan sem, eu blandit tortor lacus nec urna. Fusce pretium pharetra fermentum. Nam vel magna non leo accumsan scelerisque. In eleifend enim quis tellus feugiat lobortis. Mauris ligula lorem, venenatis vitae tortor in, dictum sodales ex. In elementum eros id tortor finibus mollis. Curabitur non varius massa. Nullam sit amet commodo est, eu pulvinar nulla. Quisque sodales imperdiet ante sit amet convallis. Praesent nec neque et ligula ultrices ullamcorper vitae non risus. Maecenas vitae vehicula odio. Morbi pulvinar accumsan lacinia.
+                                    Phasellus sit amet nisi volutpat, pellentesque dolor scelerisque, laoreet ante. Suspendisse fringilla ipsum non sem tempor, lacinia egestas nisl pretium. Nunc vestibulum urna eu suscipit posuere. Vestibulum lobortis libero sed enim efficitur, at volutpat urna euismod. Nunc ac lectus nibh. Duis laoreet gravida enim, nec molestie arcu condimentum sed. Etiam non tristique diam, nec iaculis dolor.
+                                    Aliquam suscipit vitae ipsum non accumsan. Donec a cursus ex, vitae varius odio. Donec laoreet et dui a euismod. Nam lectus ligula, pharetra vitae laoreet vel, aliquam vitae mi. Mauris iaculis dui ac porttitor porttitor. Phasellus fermentum, mauris consequat ultrices rhoncus, quam nibh pharetra dui, sit amet auctor ante mi in erat. Etiam sed consequat ante. Nunc eget eleifend mauris.
+                                    Pellentesque at sollicitudin nisl. Nam pharetra eu odio non tristique. Phasellus molestie fermentum porta. Duis placerat eget magna non sodales. Quisque ex odio, feugiat vitae finibus a, dapibus ac ipsum. Pellentesque eu odio vel magna vulputate consectetur. Donec ullamcorper elit vitae dui viverra venenatis. Proin id facilisis libero, et tempor odio. Nulla quis dictum nibh. Sed sit amet consequat sapien. Fusce porta lectus at nisl semper venenatis.
+                                    Morbi eget egestas ex. Donec consectetur elit nec nisl consequat, at vestibulum orci suscipit. Suspendisse at tortor sed ex laoreet lacinia. Morbi ut nisi pellentesque, consectetur ligula et, pretium felis. Phasellus diam nibh, bibendum eu vehicula in, dictum et nunc. Vestibulum condimentum, purus et ornare finibus, lectus eros varius ipsum, nec feugiat urna augue eget arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc tempus velit nec ipsum semper, nec vehicula sem egestas. 
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane container" id="menu3">
+            <div class="container justify">
+                <h1 class="display1">Example</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra est vitae purus ornare malesuada. Ut lacinia porta neque sed consectetur. Phasellus congue ante vel fringilla consectetur. Aliquam tincidunt, nisl sed tristique viverra, risus orci accumsan sem, eu blandit tortor lacus nec urna. Fusce pretium pharetra fermentum. Nam vel magna non leo accumsan scelerisque. In eleifend enim quis tellus feugiat lobortis. Mauris ligula lorem, venenatis vitae tortor in, dictum sodales ex. In elementum eros id tortor finibus mollis. Curabitur non varius massa. Nullam sit amet commodo est, eu pulvinar nulla. Quisque sodales imperdiet ante sit amet convallis. Praesent nec neque et ligula ultrices ullamcorper vitae non risus. Maecenas vitae vehicula odio. Morbi pulvinar accumsan lacinia.    
+                    Phasellus sit amet nisi volutpat, pellentesque dolor scelerisque, laoreet ante. Suspendisse fringilla ipsum non sem tempor, lacinia egestas nisl pretium. Nunc vestibulum urna eu suscipit posuere. Vestibulum lobortis libero sed enim efficitur, at volutpat urna euismod. Nunc ac lectus nibh. Duis laoreet gravida enim, nec molestie arcu condimentum sed. Etiam non tristique diam, nec iaculis dolor.
+                    Aliquam suscipit vitae ipsum non accumsan. Donec a cursus ex, vitae varius odio. Donec laoreet et dui a euismod. Nam lectus ligula, pharetra vitae laoreet vel, aliquam vitae mi. Mauris iaculis dui ac porttitor porttitor. Phasellus fermentum, mauris consequat ultrices rhoncus, quam nibh pharetra dui, sit amet auctor ante mi in erat. Etiam sed consequat ante. Nunc eget eleifend mauris.
+                    Pellentesque at sollicitudin nisl. Nam pharetra eu odio non tristique. Phasellus molestie fermentum porta. Duis placerat eget magna non sodales. Quisque ex odio, feugiat vitae finibus a, dapibus ac ipsum. Pellentesque eu odio vel magna vulputate consectetur. Donec ullamcorper elit vitae dui viverra venenatis. Proin id facilisis libero, et tempor odio. Nulla quis dictum nibh. Sed sit amet consequat sapien. Fusce porta lectus at nisl semper venenatis.
+                    Morbi eget egestas ex. Donec consectetur elit nec nisl consequat, at vestibulum orci suscipit. Suspendisse at tortor sed ex laoreet lacinia. Morbi ut nisi pellentesque, consectetur ligula et, pretium felis. Phasellus diam nibh, bibendum eu vehicula in, dictum et nunc. Vestibulum condimentum, purus et ornare finibus, lectus eros varius ipsum, nec feugiat urna augue eget arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc tempus velit nec ipsum semper, nec vehicula sem egestas.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra est vitae purus ornare malesuada. Ut lacinia porta neque sed consectetur. Phasellus congue ante vel fringilla consectetur. Aliquam tincidunt, nisl sed tristique viverra, risus orci accumsan sem, eu blandit tortor lacus nec urna. Fusce pretium pharetra fermentum. Nam vel magna non leo accumsan scelerisque. In eleifend enim quis tellus feugiat lobortis. Mauris ligula lorem, venenatis vitae tortor in, dictum sodales ex. In elementum eros id tortor finibus mollis. Curabitur non varius massa. Nullam sit amet commodo est, eu pulvinar nulla. Quisque sodales imperdiet ante sit amet convallis. Praesent nec neque et ligula ultrices ullamcorper vitae non risus. Maecenas vitae vehicula odio. Morbi pulvinar accumsan lacinia.
+                    Phasellus sit amet nisi volutpat, pellentesque dolor scelerisque, laoreet ante. Suspendisse fringilla ipsum non sem tempor, lacinia egestas nisl pretium. Nunc vestibulum urna eu suscipit posuere. Vestibulum lobortis libero sed enim efficitur, at volutpat urna euismod. Nunc ac lectus nibh. Duis laoreet gravida enim, nec molestie arcu condimentum sed. Etiam non tristique diam, nec iaculis dolor.
+                    Aliquam suscipit vitae ipsum non accumsan. Donec a cursus ex, vitae varius odio. Donec laoreet et dui a euismod. Nam lectus ligula, pharetra vitae laoreet vel, aliquam vitae mi. Mauris iaculis dui ac porttitor porttitor. Phasellus fermentum, mauris consequat ultrices rhoncus, quam nibh pharetra dui, sit amet auctor ante mi in erat. Etiam sed consequat ante. Nunc eget eleifend mauris.
+                    Pellentesque at sollicitudin nisl. Nam pharetra eu odio non tristique. Phasellus molestie fermentum porta. Duis placerat eget magna non sodales. Quisque ex odio, feugiat vitae finibus a, dapibus ac ipsum. Pellentesque eu odio vel magna vulputate consectetur. Donec ullamcorper elit vitae dui viverra venenatis. Proin id facilisis libero, et tempor odio. Nulla quis dictum nibh. Sed sit amet consequat sapien. Fusce porta lectus at nisl semper venenatis.
+                    Morbi eget egestas ex. Donec consectetur elit nec nisl consequat, at vestibulum orci suscipit. Suspendisse at tortor sed ex laoreet lacinia. Morbi ut nisi pellentesque, consectetur ligula et, pretium felis. Phasellus diam nibh, bibendum eu vehicula in, dictum et nunc. Vestibulum condimentum, purus et ornare finibus, lectus eros varius ipsum, nec feugiat urna augue eget arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc tempus velit nec ipsum semper, nec vehicula sem egestas. 
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
