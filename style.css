@@ -1,3 +1,11 @@
+body {
+    position: relative;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
 .box-cardImg {
     width: 600px;
 }
