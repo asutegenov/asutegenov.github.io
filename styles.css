@@ -1,0 +1,24 @@
+.color {
+    width: 100%;
+    height: 1000px;
+}
+
+.orangered {
+    background-image: linear-gradient(green, greenyellow);
+}
+
+.green {
+    background-image: linear-gradient(greenyellow, yellow);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.navbar {
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.btn-group {
+    float: left
+}
