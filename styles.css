@@ -1,7 +1,10 @@
+
 footer {
     background-color: black;
     color: white;
     text-align: center;
+    height: 3rem;
+    font-size: 2rem;
 }
 
 p {
@@ -10,35 +13,10 @@ p {
     font-weight: 400;
 }
 
-.without-border {
-    border: 0.1rem solid black;
-    border-radius: .5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.color {
-    width: 100%;
-    height: 1000px;
-}
-
-.orangered {
-    background-image: linear-gradient(green, greenyellow);
-}
-
-.green {
-    background-image: linear-gradient(greenyellow, yellow);
-}
-
-.yellow {
-    background-image: linear-gradient(yellow, orange);
-}
-
 
 /* Navbar */
 .navbar {
     font-family: 'Encode Sans Condensed', sans-serif;
-    opacity: 0.95;
 }
 
 
@@ -116,9 +94,10 @@ p {
     margin: 1rem;
     margin-top: 3rem;
     font-family: 'Cairo', sans-serif;
-    border: .15rem solid black;
     border-radius: .5rem;
     background-color: whitesmoke;
+    /* background-color: red;
+    color: black; */
 }
 
 .title-name h1 {
@@ -127,10 +106,11 @@ p {
 
 .person-img {
     float: left;
-    margin-top: .5rem;
-    margin-right: 1rem;
+    margin-top: 1.4rem;
+    margin-right: 1.2rem;
     margin-left: 1rem;
 }
+
 
 .image-img {
     width: 300px;
@@ -146,8 +126,16 @@ p {
     width: 2rem;
 }
 
+.years-img {
+    font-size: .8rem;
+}
+
 .text-bio {
     margin: 1rem;
 }
 
-
+hr {
+    background-color: black;
+    width: 80%;
+    margin-top: 2.3rem;
+}
