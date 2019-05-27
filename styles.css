@@ -164,7 +164,7 @@ p {
     }
 }
 
-@media only touch-screen and (max-width: 400px) {
+@media only touch-screen and (max-width: 450px) {
     .legends-bg {
         padding-left: 1rem;
         padding-right: 1rem;
