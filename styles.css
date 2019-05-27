@@ -106,65 +106,7 @@ p {
     margin: 1rem;
 }
 
-
-@media (max-width: 800px) {
-    .title_start_bg {
-        font-size: 4.5rem;
-    }
-    .desc_start_bg {
-        font-size: 1.9rem;
-    }
-    .title-name h1 {
-        padding: .5rem;
-    }
-}
-
-@media (max-width: 650px) {
-    .title_start_bg {
-        font-size: 4.5rem;
-        top: 38%;
-    }
-    .desc_start_bg {
-        font-size: 1.9rem;
-        top: 57%;
-    }
-}
-
-@media only touch-screen and (orientation: landscape){
-    .legends-bg {
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        top: 22%;
-    }
-
-    .title-legends {
-        font-family: 'Cairo', sans-serif;
-        font-size:4.5rem;
-        opacity: 0.8;
-        color: white;
-        text-shadow: 0px 4px 3px rgb(0, 0, 0, 0.9),
-                0px 8px 13px rgb(0, 0, 0, 0.9),
-                0px 18px 23px rgb(0, 0, 0, 0.9);
-    }
-    
-    .title-of-formula-one {
-        font-size: 1.94rem;
-        opacity: .8;
-        color: black;
-        font-weight: 900;
-        text-shadow: 0px 4px 3px rgb(255, 255, 255, 0.9),
-                0px 8px 13px rgb(255, 255, 255, 0.9),
-                0px 18px 23px rgb(255, 255, 255, 0.9);
-    }
-    .text-bio p {
-        margin: 1rem;
-        text-align: justify;
-    }
-}
-
-@media only touch-screen and (max-width: 450px) {
+@media only screen and (max-width: 400px) {
     .legends-bg {
         padding-left: 1rem;
         padding-right: 1rem;
@@ -175,7 +117,7 @@ p {
 
     .title-legends {
         font-family: 'Cairo', sans-serif;
-        font-size:4.5rem;
+        font-size:4.8rem;
         opacity: 0.8;
         color: white;
         text-shadow: 0px 4px 3px rgb(0, 0, 0, 0.9),
@@ -218,6 +160,40 @@ p {
                     0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
+    .text-bio p {
+        margin: 1rem;
+        text-align: justify;
+    }
+}
+
+@media only screen and (orientation: landscape){
+    .legends-bg {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        top: 22%;
+    }
+
+    .title-legends {
+        font-family: 'Cairo', sans-serif;
+        font-size:4.5rem;
+        opacity: 0.8;
+        color: white;
+        text-shadow: 0px 4px 3px rgb(0, 0, 0, 0.9),
+                0px 8px 13px rgb(0, 0, 0, 0.9),
+                0px 18px 23px rgb(0, 0, 0, 0.9);
+    }
+    
+    .title-of-formula-one {
+        font-size: 1.94rem;
+        opacity: .8;
+        color: black;
+        font-weight: 900;
+        text-shadow: 0px 4px 3px rgb(255, 255, 255, 0.9),
+                0px 8px 13px rgb(255, 255, 255, 0.9),
+                0px 18px 23px rgb(255, 255, 255, 0.9);
+    }
     .text-bio p {
         margin: 1rem;
         text-align: justify;
