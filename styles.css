@@ -16,7 +16,7 @@ p {
 
 .container .test {
     width: 100%;
-    height: 62rem;
+    height: 62.5rem;
     background-image: url('/pic/bg_02_a.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -164,7 +164,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only touch-screen and (max-width: 400px) {
     .legends-bg {
         padding-left: 1rem;
         padding-right: 1rem;
