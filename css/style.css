@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #222;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: url('/img/bg_01.jpg') no-repeat center top /  cover;
+    height: 100vh;
+}
+
+#section1 {
+    height: 100vh;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 10rem;
+    float: left;
+}
+
+nav {
+    margin-top: 45px;
+    float: right;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 41px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.titles-first {
+    font-size: 40px;
+    color: white;
+    text-transform: lowercase;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.of {
+    font-size: 45px;
+    color: white;
+    text-transform: lowercase;
+    text-align: center;
+    margin-top: 130px;
+}
+
+h1 {
+    font-size: 75px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.button {
+    background: red;
+    color: black;
+    border-radius: 3px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.title {
+padding: 115px;
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.title p {
+    color: grey;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.legends {
+    margin-top: 30px;
+}
+
+.legends-item {
+    width: 280px;
+    float: left;
+    text-align: center;
+}
+
+.legends-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.legends-item p {
+    font-size: 14px;
+    color: #777;
+}
+
+.legends-item:last-child {
+    float: right;
+}
+
+.legends-item:nth-child(2) {
+    margin-left: 55px;
+}
