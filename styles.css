@@ -34,3 +34,10 @@ footer {
     text-decoration: underline;
     font-size: 1.5rem;
 }
+
+@media (min-width: 600px){
+    
+    #time {
+        font-size: 3rem;
+    }
+}
