@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+  background-color: rgb(51, 51, 51);
+  color: #bbb;
+  text-shadow: 1px 1px 1px rgb(40, 40, 40);
+}
+
+main {
+    margin-top: 22%;
+}
+
+#time {
+  display: block;
+  text-align: center;
+  font-size: 5rem;
+}
+
+#date {
+  text-align: center;
+  font-size: 1rem;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
