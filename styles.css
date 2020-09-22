@@ -100,17 +100,17 @@ body {
   text-shadow: 10px 10px 5px red;
 }
 
-#socialMedia {
+#socialM {
   padding: 3rem;
   background-color: black;
   text-align: center;
 }
 
-#socialMedia li {
+#socialM li {
   display: inline-block;
 }
 
-#socialMedia img {
+#socialM img {
   width: 3rem;
   padding: .5rem;
   text-shadow: 10px 10px 10px red;
