@@ -104,6 +104,7 @@ body {
   padding: 3rem;
   background-color: black;
   text-align: center;
+  display: !important;
 }
 
 #socialMedia li {
