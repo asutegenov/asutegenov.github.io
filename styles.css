@@ -107,7 +107,7 @@ body {
 }
 
 #socialMedia li {
-  display: inline;
+  display: inline-block;
 }
 
 #socialMedia img {
