@@ -1,29 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-  <title>ASUtegenov - Start Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Start Page</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- <script src="/js/scripts.js"></script> -->
 </head>
-<body>
+<body id="top">
 
-  <section id="block">
-    <h1 id="name">Alex Utegenov</h1>
-    <p id="comingSoon">coming soon...</p>
-    <section id="socialM">
-      <ul>
-        <li><a href="https://instagram.com/asutegenov/" target="_blank"><img src="/images/instagram-logo.svg" alt="Instagram-logo"></a></li>
-        <li><a href="https://twitter.com/ASUtegenov" target="_blank"><img src="/images/twitter-logo.svg" alt="Twitter-logo"></a></li>
-        <li><a href="https://facebook.com/asutegenov" target="_blank"><img src="/images/facebook-logo.svg" alt="Facebook-logo"></a></li>
-      </ul>
-    </section>
-  </section>
+	<nav>
+		<div class="name"><a href="#">ALEX UTEGENOV</a></div>
+		<div class="nav-menu">
+			<ul>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#works">PORTFOLIO</a></li>
+				<li><a href="#skills">SKILL'S</a></li>
+				<a href="mailto:asutegenov@gmail.com?subject=HIRE ME - from ASUtegenov.com"><h1>HIRE ME</h1></a>
+			</ul>
+		</div>
+	</nav>
 
-  <footer>
-    Copyright&copy; 2020 <a id="footerLink" href="https://asutegenov.github.io">asutegenov.github.io</a> All rights reserved
-  </footer>
+	<main>
+		<section class="home">
+			<img src="/images/iam.jpeg" alt="Iam">
+			<div class="home-name">
+				<h1>Alex Utegenov</h1>
+				<p>Front End Developer</p>
+			</div>
+		</section>
+		<section class="about" id="about">
+			<header><h1>ABOUT ME</h1></header>
+			<div class="about-text">
+				<p>Люблю верстать. Люблю делать макеты сайтов в Figma и реализовывать дизайн с помощью кода. Использую препроцессор Sass. Люблю читать, думать, много работать и все это делаю с большим удовольствием. Никогда не останавливаюсь на достигнутом, постоянно учусь новому, а так же расширяю уровень своих знаний в уже изученном. Следую границам дедлайна. Аккуратный, исполнительный разработчик, готовый много и упорно работать.</p>
+			</div>
+			<div class="about-btn">
+				<a href="/doc/Resume.pdf" download>Download Resume</a>
+			</div>
+		</section>
+		<section class="works" id="works">
+			<header><h1>MY WORK'S</h1></header>
+			<div class="works-row">
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+			</div>
+		</section>
+		<section class="skills" id="skills">
+			<header><h1>MY SKILL'S</h1></header>
+			<div class="skills-table">
+				<div class="skills-table_unit">
+					<span class="unit-header">HTML</span>
+					<div class="unit-outside"><span class="unit-inside"></span></div>
+					<span class="unit-percent">80%</span>
+				</div>
+				<div class="skills-table_unit">
+					<span class="unit-header">CSS</span>
+					<div class="unit-outside"><span class="unit-inside"></span></div>
+					<span class="unit-percent">70%</span>
+				</div>
+				<div class="skills-table_unit">
+					<span class="unit-header">JAVASCRIPT</span>
+					<div class="unit-outside"><span class="unit-inside"></span></div>
+					<span class="unit-percent">30%</span>
+				</div>
+				<div class="skills-table_unit">
+					<span class="unit-header">BOOTSTRAP</span>
+					<div class="unit-outside"><span class="unit-inside"></span></div>
+					<span class="unit-percent">40%</span>
+				</div>
+				<div class="skills-table_unit">
+					<span class="unit-header">SASS</span>
+					<div class="unit-outside"><span class="unit-inside"></span></div>
+					<span class="unit-percent">60%</span>
+				</div>
+				<div class="skills-table_unit">
+					<span class="unit-header">FIGMA</span>
+					<div class="unit-outside"><span class="unit-inside"></span></div>
+					<span class="unit-percent">60%</span>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<header><h1>CONTACT ME</h1></header>
+		<div class="footer-main">
+			<div class="footer-main_contact">
+				<h1>ALEX UTEGENOV</h1>
+				<a href="tel:+7(927)214-44-31">+7(927) 214-44-31</a>
+				<a href="mailto:asutegenov@gmail.com?subject=Hello Alex - from ASUtegenov.com">asutegenov@gmail.com</a>
+			</div>
+			<div class="footer-main_followme">
+				<h1>FOLLOW ME</h1>
+				<div class="footer-main_followme__sn">
+					<a href="https://www.facebook.com/asutegenov/"><img src="/images/facebook.svg" alt="Facebook"></a>
+					<a href="https://www.instagram.com/asutegenov/"><img src="/images/instagram.svg" alt="Instagram"></a>
+					<a href="https://twitter.com/ASUtegenov"><img src="/images/twitter.svg" alt="Twitter"></a>
+					<a href="https://github.com/asutegenov"><img src="/images/github.svg" alt="Github"></a>
+				</div>
+				<p>&#169; 2021 Alex Utegenov</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="/js/scripts.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
 
 </body>
 </html>
