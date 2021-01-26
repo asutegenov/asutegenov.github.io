@@ -1250,7 +1250,7 @@ html body footer .footer-main .footer-main_followme p {
     color: #2B2B2B;
   }
 }
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 310px) {
   html {
     scroll-behavior: smooth;
   }

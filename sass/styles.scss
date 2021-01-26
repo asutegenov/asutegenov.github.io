@@ -809,7 +809,7 @@ html {
   }
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 310px) {
   html {
     // border: .1rem solid red;
     scroll-behavior: smooth;
