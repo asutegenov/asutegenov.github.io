@@ -97,11 +97,11 @@ html body > header .menu-name {
   justify-items: start;
   align-items: center;
   width: 100%;
-  border: 0.2rem solid #ffffff;
 }
 html body > header .menu-name a {
   display: grid;
   align-items: center;
+  border: 0.2rem solid #ffffff;
   height: 100%;
   font-size: 1.2rem;
   font-weight: 700;
@@ -316,9 +316,9 @@ html body main .skills header h1 {
   padding: 0 0 5% 0;
 }
 html body main .skills .skills-table {
-  height: 70%;
+  height: 80%;
   width: 60%;
-  padding: 0 0 0 1%;
+  padding: 0 0 2% 2%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);

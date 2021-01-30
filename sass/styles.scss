@@ -153,11 +153,11 @@ html {
         justify-items: start;
         align-items: center;
         width: 100%;
-        border: .2rem solid $color-white;
         a {
           display: grid;
           align-items: center;
           // border: .2rem solid red;
+          border: .2rem solid $color-white;
           height: 100%;
           font-size: 1.2rem;
           font-weight: 700;
@@ -338,9 +338,9 @@ html {
       .skills {
         @include header($color-white, 53vh, 10vh 43vh);
         .skills-table {
-          height: 70%;
+          height: 80%;
           width: 60%;
-          padding: 0 0 0 1%;
+          padding: 0 0 2% 2%;
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: repeat(6, 1fr);
