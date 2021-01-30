@@ -98,6 +98,7 @@ html body > header .menu-name {
   justify-items: start;
   align-items: center;
   width: 100%;
+  border: 0.2rem solid #ffffff;
 }
 html body > header .menu-name a {
   display: grid;
@@ -107,6 +108,7 @@ html body > header .menu-name a {
   font-weight: 700;
   letter-spacing: 0.5rem;
   padding: 0 2rem;
+  color: #2B2B2B;
 }
 html body > header .menu-name a:hover {
   background: #2B2B2B;
@@ -126,6 +128,7 @@ html body > header .menu-bar .nav-menu a {
   align-items: center;
   font-size: 0.75rem;
   letter-spacing: 0.15rem;
+  color: #2B2B2B;
 }
 html body > header .menu-bar .nav-menu a:hover {
   background: #2B2B2B;
@@ -164,6 +167,7 @@ html body main .home .home-content {
   align-content: center;
   gap: 3vh;
   height: 100%;
+  padding: 5vh 0 0 0;
 }
 html body main .home .home-content img {
   display: grid;
@@ -294,10 +298,10 @@ html body main .works .works-row a:active {
 }
 html body main .skills {
   background: #ffffff;
-  height: 50vh;
+  height: 53vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 10vh 40vh;
+  grid-template-rows: 10vh 43vh;
 }
 html body main .skills header {
   display: grid;
@@ -327,6 +331,7 @@ html body main .skills .skills-table .skills-table_unit:nth-child(1) {
   grid-template-columns: 20% 58% 20%;
   grid-template-rows: 1fr;
   gap: 3%;
+  color: #2B2B2B;
 }
 html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-header {
   display: grid;
@@ -366,6 +371,7 @@ html body main .skills .skills-table .skills-table_unit:nth-child(2) {
   grid-template-columns: 20% 58% 20%;
   grid-template-rows: 1fr;
   gap: 3%;
+  color: #2B2B2B;
 }
 html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-header {
   display: grid;
@@ -405,6 +411,7 @@ html body main .skills .skills-table .skills-table_unit:nth-child(3) {
   grid-template-columns: 20% 58% 20%;
   grid-template-rows: 1fr;
   gap: 3%;
+  color: #2B2B2B;
 }
 html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-header {
   display: grid;
@@ -444,6 +451,7 @@ html body main .skills .skills-table .skills-table_unit:nth-child(4) {
   grid-template-columns: 20% 58% 20%;
   grid-template-rows: 1fr;
   gap: 3%;
+  color: #2B2B2B;
 }
 html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-header {
   display: grid;
@@ -483,6 +491,7 @@ html body main .skills .skills-table .skills-table_unit:nth-child(5) {
   grid-template-columns: 20% 58% 20%;
   grid-template-rows: 1fr;
   gap: 3%;
+  color: #2B2B2B;
 }
 html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-header {
   display: grid;
@@ -504,7 +513,7 @@ html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outsi
   display: grid;
   justify-items: start;
   align-items: center;
-  width: 60%;
+  width: 70%;
   height: 100%;
   background: #2B2B2B;
   transition: all 0.25s;
@@ -522,6 +531,7 @@ html body main .skills .skills-table .skills-table_unit:nth-child(6) {
   grid-template-columns: 20% 58% 20%;
   grid-template-rows: 1fr;
   gap: 3%;
+  color: #2B2B2B;
 }
 html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-header {
   display: grid;
@@ -617,6 +627,7 @@ html body footer .footer-main .footer-main_followme {
   justify-content: center;
   align-content: center;
   gap: 10%;
+  color: #2B2B2B;
 }
 html body footer .footer-main .footer-main_followme > h1 {
   display: grid;
@@ -636,9 +647,12 @@ html body footer .footer-main .footer-main_followme .footer-main_followme__sn a 
   text-align: center;
   font-size: 1.1rem;
   font-weight: 500;
+  color: #2B2B2B;
+  transition: all 0.3s ease-in-out;
 }
 html body footer .footer-main .footer-main_followme .footer-main_followme__sn a:hover {
   color: #ffffff;
+  transform: scale(1.1);
 }
 html body footer .footer-main .footer-main_followme p {
   display: grid;

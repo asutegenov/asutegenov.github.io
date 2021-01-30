@@ -54,6 +54,7 @@ $color-back: #F6F6F6;
   grid-template-columns: 20% 58% 20%;
   grid-template-rows: 1fr;
   gap: 3%;
+  color: $color-black;
   .unit-header {
     display: grid;
     justify-items: end;
@@ -152,6 +153,7 @@ html {
         justify-items: start;
         align-items: center;
         width: 100%;
+        border: .2rem solid $color-white;
         a {
           display: grid;
           align-items: center;
@@ -161,6 +163,7 @@ html {
           font-weight: 700;
           letter-spacing: .5rem;
           padding: 0 2rem;
+          color: $color-black;
           &:hover {
             background: $color-black;
             color: $color-white;
@@ -183,6 +186,7 @@ html {
             align-items: center;
             font-size: .75rem;
             letter-spacing: .15rem;
+            color: $color-black;
             &:hover {
               background: $color-black;
               color: $color-white;
@@ -224,6 +228,7 @@ html {
           align-content: center;
           gap: 3vh;
           height: 100%;
+          padding: 5vh 0 0 0;
           img {
             display: grid;
             justify-self: center;
@@ -331,7 +336,7 @@ html {
         }
       }
       .skills {
-        @include header($color-white, 50vh, 10vh 40vh);
+        @include header($color-white, 53vh, 10vh 43vh);
         .skills-table {
           height: 70%;
           width: 60%;
@@ -355,7 +360,7 @@ html {
               @include skills(40%);
             }
             &:nth-child(5) {
-              @include skills(60%);
+              @include skills(70%);
             }
             &:nth-child(6) {
               @include skills(60%);
@@ -414,6 +419,7 @@ html {
           justify-content: center;
           align-content: center;
           gap: 10%;
+          color: $color-black;
           >h1 {
             // border: .1rem solid white;
             display: grid;
@@ -435,8 +441,11 @@ html {
               text-align: center;
               font-size: 1.1rem;
               font-weight: 500;
+              color: $color-black;
+              transition: all .3s ease-in-out;
               &:hover {
                 color: $color-white;
+                transform: scale(1.1);
               }
             }
           }
