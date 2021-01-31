@@ -932,5 +932,287 @@ html body footer .footer-main .footer-main_followme p {
     transform: none;
   }
 }
+@media screen and (max-width: 320px) {
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  html body > header {
+    display: none;
+    padding: 0 1rem 0 1rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  html body > header .menu-name {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    padding: 0;
+  }
+  html body > header .menu-name a {
+    width: 100%;
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding: 0.05rem 0 0 0.5rem;
+  }
+  html body > header .menu-bar .nav-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  html body > header .menu-bar .nav-menu a:not(:nth-last-child(1)) {
+    display: none;
+  }
+  html body > header .menu-bar .nav-menu a:nth-last-child(1) {
+    background: #e02020;
+    color: #ffffff;
+    transition: none;
+  }
+  html body > header .menu-bar .nav-menu a:nth-last-child(1) h1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 0.8rem;
+    font-weight: 900;
+  }
+  html body > header .menu-bar .nav-menu a:nth-last-child(1):hover {
+    background: #2B2B2B;
+    color: #e02020;
+  }
+  html body > header .menu-bar .nav-menu a:nth-last-child(1):active {
+    opacity: 1;
+  }
+  html body main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    z-index: 0;
+    padding: 7vh 0 0 0;
+  }
+  html body main .home {
+    height: 40vh;
+  }
+  html body main .home .home-content {
+    justify-content: center;
+    align-content: center;
+    gap: 3vh;
+    height: 100%;
+    padding: 6vh 0 5vh 0;
+  }
+  html body main .home .home-content img {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.5rem white, 0 0 0 0.6rem rgba(0, 0, 0, 0.1);
+  }
+  html body main .home .home-content .home-name {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 1vh;
+    color: #2B2B2B;
+  }
+  html body main .home .home-content .home-name h1 {
+    display: grid;
+    justify-content: center;
+    align-content: end;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  html body main .home .home-content .home-name p {
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  html body main .about .about-text {
+    width: 90%;
+  }
+  html body main .about .about-text p {
+    font-size: 0.87rem;
+  }
+  html body main .about .about-btn a {
+    transition: none;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+  }
+  html body main .about .about-btn a:hover {
+    background: #ffffff;
+    color: #2B2B2B;
+  }
+  html body main .about .about-btn a:active {
+    background: #ffffff;
+    color: #2B2B2B;
+  }
+  html body main .works {
+    background: #F6F6F6;
+    height: 93vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 83vh;
+  }
+  html body main .works header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .works header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .works .works-row {
+    height: 95%;
+    width: 80%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 5%;
+    align-self: start;
+  }
+  html body main .works .works-row a {
+    transition: none;
+    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+  }
+  html body main .works .works-row a:hover {
+    box-shadow: none;
+    transform: none;
+  }
+  html body main .works .works-row a:active {
+    opacity: 1;
+  }
+  html body main .skills .skills-table {
+    width: 90%;
+    padding: 0 0 10% 0;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) {
+    grid-template-columns: 37% 46% 12%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-header {
+    font-size: 1.1rem;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside {
+    height: 45%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside .unit-inside {
+    width: 80%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-percent {
+    font-size: 1.1rem;
+    font-weight: 100;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) {
+    grid-template-columns: 37% 46% 12%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-header {
+    font-size: 1.1rem;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside {
+    height: 45%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside .unit-inside {
+    width: 70%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-percent {
+    font-size: 1.1rem;
+    font-weight: 100;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) {
+    grid-template-columns: 37% 46% 12%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-header {
+    font-size: 1.1rem;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside {
+    height: 45%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside .unit-inside {
+    width: 30%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-percent {
+    font-size: 1.1rem;
+    font-weight: 100;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) {
+    grid-template-columns: 37% 46% 12%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-header {
+    font-size: 1.1rem;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside {
+    height: 45%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside .unit-inside {
+    width: 40%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-percent {
+    font-size: 1.1rem;
+    font-weight: 100;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) {
+    grid-template-columns: 37% 46% 12%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-header {
+    font-size: 1.1rem;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside {
+    height: 45%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside .unit-inside {
+    width: 70%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-percent {
+    font-size: 1.1rem;
+    font-weight: 100;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) {
+    grid-template-columns: 37% 46% 12%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-header {
+    font-size: 1.1rem;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside {
+    height: 45%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside .unit-inside {
+    width: 60%;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-percent {
+    font-size: 1.1rem;
+    font-weight: 100;
+  }
+  html body footer .footer-main .footer-main_contact a {
+    transition: none;
+  }
+  html body footer .footer-main .footer-main_contact a:hover {
+    transform: none;
+  }
+  html body footer .footer-main .footer-main_contact a:active {
+    opacity: 1;
+  }
+  html body footer .footer-main .footer-main_followme .footer-main_followme__sn {
+    gap: 3%;
+    margin: 0 auto;
+    width: 89%;
+  }
+  html body footer .footer-main .footer-main_followme .footer-main_followme__sn a {
+    display: grid;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: none;
+  }
+  html body footer .footer-main .footer-main_followme .footer-main_followme__sn a:hover {
+    color: #ffffff;
+    transform: none;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
