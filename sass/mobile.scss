@@ -1,31 +1,39 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
+   
     $color-red: #e02020;
     $color-white: #ffffff;
     $color-black: #2B2B2B;
     $color-back: #F6F6F6;
 
     @mixin skills($percent: 10%) {
-        grid-template-columns: 35% 45% 20%;
+        grid-template-columns: 35% 48% 12%;
         .unit-header {
+            // border: .1rem solid purple;
             font-size: 1.25rem;
         }
         .unit-outside {
+            // border: .1rem solid purple;
             height: 45%;
             .unit-inside {
                 width: $percent;
             }
         }
         .unit-percent {
+            // border: .1rem solid red;
             font-size: 1.25rem;
             font-weight: 100;
         }
     }
+
     html {
+        // border: .1rem solid red;
         font-family: "Montserrat", sans-serif;
+        // overflow-x: hidden;
         body {
+            // border: .1rem solid purple;
             >header {
                 // border: .2rem solid red;
-                // display: none;
+                display: none;
                 padding: 0 1rem;
                 display: grid;
                 grid-template-columns: 3fr 1fr;
@@ -82,11 +90,13 @@
             }
             main {
                 // display: none;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
                 z-index: 0;
                 padding: 7vh 0 0 0;
                 // border: .5rem solid purple;
                 .home {
-                    // border: .25rem solid green;
                     height: 40vh;
                     .home-content {
                         // border: .25rem solid red;
@@ -176,11 +186,14 @@
                     }
                 }
                 .skills {
+                    // border: .1rem solid purple;
                     .skills-table {
+                        // border: .1rem solid red;
                         height: 80%;
-                        width: 100%;
-                        padding: 0 0 10% 2%;
+                        width: 90%;
+                        padding: 0 0 10% 0;
                         .skills-table_unit {
+                            // border: .1rem solid green;
                             &:nth-child(1) {
                             @include skills(80%);
                             }

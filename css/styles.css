@@ -101,7 +101,6 @@ html body > header .menu-name {
 html body > header .menu-name a {
   display: grid;
   align-items: center;
-  border: 0.2rem solid #ffffff;
   height: 100%;
   font-size: 1.2rem;
   font-weight: 700;
@@ -282,6 +281,7 @@ html body main .works .works-row {
   gap: 2%;
   justify-self: center;
   align-self: center;
+  padding: 0 0 3% 0;
 }
 html body main .works .works-row a {
   background: #ffffff;
@@ -664,6 +664,7 @@ html body footer .footer-main .footer-main_followme p {
     font-family: "Montserrat", sans-serif;
   }
   html body > header {
+    display: none;
     padding: 0 1rem;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -709,6 +710,9 @@ html body footer .footer-main .footer-main_followme p {
     opacity: 1;
   }
   html body main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     z-index: 0;
     padding: 7vh 0 0 0;
   }
@@ -812,11 +816,11 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .skills .skills-table {
     height: 80%;
-    width: 100%;
-    padding: 0 0 10% 2%;
+    width: 90%;
+    padding: 0 0 10% 0;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(1) {
-    grid-template-columns: 35% 45% 20%;
+    grid-template-columns: 35% 48% 12%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-header {
     font-size: 1.25rem;
@@ -832,7 +836,7 @@ html body footer .footer-main .footer-main_followme p {
     font-weight: 100;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(2) {
-    grid-template-columns: 35% 45% 20%;
+    grid-template-columns: 35% 48% 12%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-header {
     font-size: 1.25rem;
@@ -848,7 +852,7 @@ html body footer .footer-main .footer-main_followme p {
     font-weight: 100;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(3) {
-    grid-template-columns: 35% 45% 20%;
+    grid-template-columns: 35% 48% 12%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-header {
     font-size: 1.25rem;
@@ -864,7 +868,7 @@ html body footer .footer-main .footer-main_followme p {
     font-weight: 100;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(4) {
-    grid-template-columns: 35% 45% 20%;
+    grid-template-columns: 35% 48% 12%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-header {
     font-size: 1.25rem;
@@ -880,7 +884,7 @@ html body footer .footer-main .footer-main_followme p {
     font-weight: 100;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(5) {
-    grid-template-columns: 35% 45% 20%;
+    grid-template-columns: 35% 48% 12%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-header {
     font-size: 1.25rem;
@@ -896,7 +900,7 @@ html body footer .footer-main .footer-main_followme p {
     font-weight: 100;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(6) {
-    grid-template-columns: 35% 45% 20%;
+    grid-template-columns: 35% 48% 12%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-header {
     font-size: 1.25rem;

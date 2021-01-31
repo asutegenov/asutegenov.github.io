@@ -27,28 +27,6 @@ $color-back: #F6F6F6;
   }
 }
 
-@mixin header-mobile ($color, $heightVH, $row...) {
-  background: $color;
-  height: $heightVH;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: $row;
-  // border: .5rem solid red;
-  header {
-    // border: .5rem solid red;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    justify-self: center;
-    font-size: 1rem;
-    font-weight: 700;
-    color: $color-black;
-    h1 {
-      border-bottom: .1rem solid $color-red;
-    }
-  }
-}
-
 @mixin skills($percent: 10%) {
   display: grid;
   grid-template-columns: 20% 58% 20%;
@@ -90,46 +68,6 @@ $color-back: #F6F6F6;
   }
 }
 
-@mixin skills-mobile($percent: 10%) {
-  display: grid;
-  grid-template-columns: 30% 50% 20%;
-  grid-template-rows: 1fr;
-  gap: 1.5%;
-  .unit-header {
-    display: grid;
-    justify-items: end;
-    align-items: center;
-    font-size: 1.2rem;
-    font-weight: 900;
-  }
-  .unit-outside {
-    display: grid;
-    align-self: center;
-    width: 100%;
-    height: 42.5%;
-    background: #c4c4c4;
-    display: grid;
-    transition: all .5s;
-    .unit-inside {
-      display: grid;
-      justify-items: start;
-      align-items: center;
-      width: $percent;
-      height: 100%;
-      background: $color-black;
-      transition: all .25s;
-    }
-  }
-  .unit-percent {
-    display: grid;
-    justify-items: start;
-    align-items: center;
-    font-size: 1.2rem;
-    font-weight: 100;
-    color: $color-black;
-  }
-}
-
 html {
   // border: .1rem solid red;
   // scroll-behavior: smooth;
@@ -148,16 +86,15 @@ html {
       backdrop-filter: blur(.5rem);
       -webkit-backdrop-filter: blur(.5rem);
       .menu-name {
-        // border: .2rem solid red;
         display: grid;
         justify-items: start;
         align-items: center;
         width: 100%;
+        // border: .2rem solid red;
         a {
           display: grid;
           align-items: center;
           // border: .2rem solid red;
-          border: .2rem solid $color-white;
           height: 100%;
           font-size: 1.2rem;
           font-weight: 700;
@@ -319,6 +256,7 @@ html {
           gap: 2%;
           justify-self: center;
           align-self: center;
+          padding: 0 0 3% 0;
           // transition: all .5s;
           a {
             // border: .5rem solid purple;
