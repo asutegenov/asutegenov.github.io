@@ -220,7 +220,7 @@ html body main .about header h1 {
 }
 html body main .about .about-text {
   margin: 0 auto;
-  width: 45%;
+  width: 60%;
   display: grid;
   align-content: center;
 }
@@ -659,25 +659,17 @@ html body footer .footer-main .footer-main_followme p {
   align-self: center;
 }
 
-@media screen and (min-width: 570px) and (max-width: 640px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   html {
     font-family: "Montserrat", sans-serif;
   }
   html body > header {
-    display: none;
-    padding: 0 1rem;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-  }
-  html body > header .menu-name {
-    display: grid;
-    justify-items: start;
-    align-items: center;
-    padding: 0;
+    height: 10vh;
+    grid-template-columns: 4fr 1fr;
   }
   html body > header .menu-name a {
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-size: 1.2rem;
     font-weight: 700;
     padding: 0.0227rem 0 0 0;
@@ -690,53 +682,38 @@ html body footer .footer-main .footer-main_followme p {
   html body > header .menu-bar .nav-menu a:not(:nth-last-child(1)) {
     display: none;
   }
-  html body > header .menu-bar .nav-menu a:nth-last-child(1) {
-    background: #e02020;
-    color: #ffffff;
-    transition: none;
-  }
   html body > header .menu-bar .nav-menu a:nth-last-child(1) h1 {
-    display: grid;
-    justify-content: center;
-    align-content: center;
     font-size: 1rem;
     font-weight: 900;
   }
-  html body > header .menu-bar .nav-menu a:nth-last-child(1):hover {
-    background: #2B2B2B;
-    color: #e02020;
-  }
-  html body > header .menu-bar .nav-menu a:nth-last-child(1):active {
-    opacity: 1;
-  }
   html body main {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
     z-index: 0;
-    padding: 7vh 0 0 0;
-    border: 0.5rem solid purple;
+    padding: 10vh 0 0 0;
+    border: none;
   }
   html body main .home {
-    height: 40vh;
+    height: 25vh;
   }
   html body main .home .home-content {
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-content: center;
-    gap: 3vh;
+    gap: 1.5vh;
     height: 100%;
-    padding: 6vh 0 5vh 0;
+    padding: 5vh 10% 5vh 0;
   }
   html body main .home .home-content img {
     display: grid;
     justify-self: center;
     align-self: center;
-    width: 15vh;
-    height: 15vh;
+    width: 20vh;
+    height: 20vh;
     border-radius: 50%;
-    box-shadow: 0 0 0 0.5rem white, 0 0 0 0.6rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0.3rem white, 0 0 0 0.35rem rgba(0, 0, 0, 0.1);
   }
   html body main .home .home-content .home-name {
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr;
@@ -747,25 +724,48 @@ html body footer .footer-main .footer-main_followme p {
     display: grid;
     justify-content: center;
     align-content: end;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
   }
   html body main .home .home-content .home-name p {
     display: grid;
     justify-content: center;
     align-content: start;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
   }
+  html body main .about {
+    background: #ffffff;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 40vh 13vh;
+  }
+  html body main .about header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .about header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
   html body main .about .about-text {
-    width: 90%;
-    padding: 0 0 2.5% 0;
+    width: 95%;
+    padding: 0 0 0 0;
   }
   html body main .about .about-text p {
     font-size: 1rem;
+    line-height: 2;
   }
   html body main .about .about-btn a {
+    font-size: 0.75rem;
     transition: none;
+    padding: 0.5rem 1.5rem;
   }
   html body main .about .about-btn a:hover {
     background: #ffffff;
@@ -777,10 +777,10 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .works {
     background: #F6F6F6;
-    height: 93vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 83vh;
+    grid-template-rows: 10vh 80vh;
   }
   html body main .works header {
     display: grid;
@@ -797,14 +797,15 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .works .works-row {
     height: 95%;
-    width: 80%;
+    width: 90%;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    gap: 5%;
-    align-self: start;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(1fr, 3);
+    align-items: center;
+    gap: 3%;
   }
   html body main .works .works-row a {
+    height: 50vh;
     transition: none;
     box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
   }
@@ -815,13 +816,33 @@ html body footer .footer-main .footer-main_followme p {
   html body main .works .works-row a:active {
     opacity: 1;
   }
+  html body main .skills {
+    background: #ffffff;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 80vh;
+  }
+  html body main .skills header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .skills header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
   html body main .skills .skills-table {
-    height: 80%;
+    height: 70%;
     width: 90%;
-    padding: 0 0 10% 0;
+    padding: 0 0 2vh 0;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(1) {
-    grid-template-columns: 35% 48% 12%;
+    grid-template-columns: 25% 60% 15%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-header {
     font-size: 1.25rem;
@@ -837,7 +858,7 @@ html body footer .footer-main .footer-main_followme p {
     font-weight: 100;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(2) {
-    grid-template-columns: 35% 48% 12%;
+    grid-template-columns: 25% 60% 15%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-header {
     font-size: 1.25rem;
@@ -853,7 +874,7 @@ html body footer .footer-main .footer-main_followme p {
     font-weight: 100;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(3) {
-    grid-template-columns: 35% 48% 12%;
+    grid-template-columns: 25% 60% 15%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-header {
     font-size: 1.25rem;
@@ -869,7 +890,7 @@ html body footer .footer-main .footer-main_followme p {
     font-weight: 100;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(4) {
-    grid-template-columns: 35% 48% 12%;
+    grid-template-columns: 25% 60% 15%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-header {
     font-size: 1.25rem;
@@ -885,7 +906,7 @@ html body footer .footer-main .footer-main_followme p {
     font-weight: 100;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(5) {
-    grid-template-columns: 35% 48% 12%;
+    grid-template-columns: 25% 60% 15%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-header {
     font-size: 1.25rem;
@@ -901,7 +922,7 @@ html body footer .footer-main .footer-main_followme p {
     font-weight: 100;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(6) {
-    grid-template-columns: 35% 48% 12%;
+    grid-template-columns: 25% 60% 15%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-header {
     font-size: 1.25rem;
@@ -915,6 +936,26 @@ html body footer .footer-main .footer-main_followme p {
   html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-percent {
     font-size: 1.25rem;
     font-weight: 100;
+  }
+  html body footer {
+    background: #F6F6F6;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 80vh;
+  }
+  html body footer header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body footer header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
   }
   html body footer .footer-main .footer-main_contact a {
     transition: none;
@@ -933,7 +974,7 @@ html body footer .footer-main .footer-main_followme p {
     transform: none;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 570px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   html {
     font-family: "Montserrat", sans-serif;
   }

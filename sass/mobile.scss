@@ -1,4 +1,4 @@
-@media screen and (min-width: 570px) and (max-width: 640px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
    
     $color-red: #e02020;
     $color-white: #ffffff;
@@ -6,7 +6,7 @@
     $color-back: #F6F6F6;
 
     @mixin skills($percent: 10%) {
-        grid-template-columns: 35% 48% 12%;
+        grid-template-columns: 25% 60% 15%;
         .unit-header {
             // border: .1rem solid purple;
             font-size: 1.25rem;
@@ -33,21 +33,14 @@
             // border: .1rem solid purple;
             >header {
                 // border: .2rem solid red;
-                display: none;
-                padding: 0 1rem;
-                // height: 7vh;
-                display: grid;
-                grid-template-columns: 3fr 1fr;
+                height: 10vh;
+                grid-template-columns: 4fr 1fr;
                 .menu-name {
                     // border: .2rem solid red;
-                    display: grid;
-                    justify-items: start;
-                    align-items: center;
-                    padding: 0;
                     a {
                         // border: .2rem solid red;
                         width: 100%;
-                        text-align: center;
+                        text-align: left;
                         font-size: 1.2rem;
                         font-weight: 700;
                         padding: .0227rem 0 0 0;
@@ -57,7 +50,6 @@
                     // border: .2rem solid red;
                     .nav-menu {
                         // border: .2rem solid red;
-                        // height: 100%;
                         display: grid;
                         grid-template-columns: 1fr;
                         grid-template-rows: 1fr;
@@ -67,22 +59,9 @@
                             }
                             &:nth-last-child(1) {
                                 // border: .1rem solid blue;
-                                background: $color-red;
-                                color: $color-white;
-                                transition: none;
                                 h1 {
-                                    display: grid;
-                                    justify-content: center;
-                                    align-content: center;
                                     font-size: 1rem;
                                     font-weight: 900;
-                                }
-                                &:hover {
-                                    background: $color-black;
-                                    color: $color-red;
-                                }
-                                &:active {
-                                    opacity: 1;
                                 }
                             }
                         }
@@ -92,31 +71,32 @@
             main {
                 // display: none;
                 display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: 1fr;
                 z-index: 0;
-                padding: 7vh 0 0 0;
-                border: .5rem solid purple;
+                padding: 10vh 0 0 0;
+                border: none;
                 .home {
-                    height: 40vh;
+                    height: 25vh;
+                    // border: .1rem solid red;
                     .home-content {
                         // border: .25rem solid red;
+                        grid-template-columns: 1fr 1fr;
                         justify-content: center;
                         align-content: center;
-                        gap: 3vh;
+                        gap: 1.5vh;
                         height: 100%;
-                        padding: 6vh 0 5vh 0;
+                        padding: 5vh 10% 5vh 0;
                         img {
                             display: grid;
                             justify-self: center;
                             align-self: center;
-                            width: 15vh;
-                            height: 15vh;
+                            width: 20vh;
+                            height: 20vh;
                             border-radius: 50%;
-                            box-shadow: 0 0 0 .5rem rgba(255, 255, 255, 1), 0 0 0 .6rem rgba(0, 0, 0, .1);
+                            box-shadow: 0 0 0 .3rem rgba(255, 255, 255, 1), 0 0 0 .35rem rgba(0, 0, 0, .1);
                         }
                         .home-name {
                             // border: .25rem solid red;
+                            height: 100%;
                             display: grid;
                             grid-template-columns: 1fr;
                             grid-template-rows: 2fr 1fr;
@@ -127,7 +107,7 @@
                                 display: grid;
                                 justify-content: center;
                                 align-content: end;
-                                font-size: 2.5rem;
+                                font-size: 2rem;
                                 font-weight: 700;
                             }
                             p {
@@ -135,23 +115,30 @@
                                 display: grid;
                                 justify-content: center;
                                 align-content: start;
-                                font-size: 1.2rem;
+                                font-size: 1rem;
                                 font-weight: 400;
                             }
                         }
                     }
                 }
                 .about {
+                    @include header($color-white, 65vh, 10vh 40vh 13vh);
                     .about-text{
-                        width: 90%;
-                        padding: 0 0 2.5% 0;
+                        // border: .1rem solid red;
+                        width: 95%;
+                        padding: 0 0 0 0;
                         p {
+                            // border: .1rem solid red;
                             font-size: 1rem;
+                            line-height: 2;
                         }
                     }
                     .about-btn {
+                        // border: .1rem solid red;
                         a {
+                            font-size: .75rem;
                             transition: none;
+                            padding: .5rem 1.5rem;
                             &:hover {
                                 background: $color-white;
                                 color: $color-black;
@@ -164,16 +151,17 @@
                     }
                 }
                 .works {
-                    @include header($color-back, 93vh, 10vh 83vh);
+                    @include header($color-back, 90vh, 10vh 80vh);
                     .works-row {
                         height: 95%;
-                        width: 80%;
+                        width: 90%;
                         display: grid;
-                        grid-template-rows: 1fr 1fr 1fr;
-                        grid-template-columns: 1fr;
-                        gap: 5%;
-                        align-self: start;
+                        grid-template-rows: 1fr;
+                        grid-template-columns: repeat(1fr, 3);
+                        align-items: center;
+                        gap: 3%;
                         a {
+                            height: 50vh;
                             transition: none;
                             box-shadow: 0rem 1rem 2rem -1rem rgba($color: $color-black, $alpha: .25);
                             &:hover {
@@ -188,11 +176,12 @@
                 }
                 .skills {
                     // border: .1rem solid purple;
+                    @include header($color-white, 90vh, 10vh 80vh);
                     .skills-table {
                         // border: .1rem solid red;
-                        height: 80%;
+                        height: 70%;
                         width: 90%;
-                        padding: 0 0 10% 0;
+                        padding: 0 0 2vh 0;
                         .skills-table_unit {
                             // border: .1rem solid green;
                             &:nth-child(1) {
@@ -220,6 +209,7 @@
             }
             footer {
                 // display: none;
+                @include header($color-back, 90vh, 10vh 80vh);
                 .footer-main {
                     .footer-main_contact {
                         a {
@@ -251,7 +241,7 @@
 } 
 
 //Landscape for iPhone 5, SE
-@media screen and (min-width: 481px) and (max-width: 570px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
    
     $color-red: #e02020;
     $color-white: #ffffff;

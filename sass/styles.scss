@@ -208,7 +208,8 @@ html {
         .about-text{
           // border: .5rem solid purple;
           margin: 0 auto;
-          width: 45%;
+          // max-width: 100%;
+          width: 100% - 40%;
           display: grid;
           align-content: center;
           p {
