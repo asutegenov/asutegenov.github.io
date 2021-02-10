@@ -287,6 +287,9 @@ html body main .works .works-row a {
   background: #ffffff;
   transition: all 1s;
 }
+html body main .works .works-row a img {
+  width: 100%;
+}
 html body main .works .works-row a:hover {
   box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
   transition: all 1s;
@@ -659,6 +662,1541 @@ html body footer .footer-main .footer-main_followme p {
   align-self: center;
 }
 
+@media screen and (min-width: 4096px) {
+  html body > header .menu-name a {
+    font-size: 5rem;
+  }
+  html body > header .menu-bar .nav-menu a {
+    font-size: 2.5rem;
+  }
+  html body > header .menu-bar .nav-menu a:nth-child(2) {
+    padding: 0 5.5rem;
+  }
+  html body > header .menu-bar .nav-menu a:nth-last-child(1) h1 {
+    font-size: 2.5rem;
+  }
+  html body main .home .home-content img {
+    width: 15vh;
+    height: 15vh;
+  }
+  html body main .home .home-content .home-name h1 {
+    font-size: 10rem;
+  }
+  html body main .home .home-content .home-name p {
+    font-size: 5rem;
+  }
+  html body main .about {
+    background: #ffffff;
+    height: 53vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 28vh 13vh;
+  }
+  html body main .about header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .about header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .about .about-text {
+    width: 70%;
+  }
+  html body main .about .about-text p {
+    font-size: 5rem;
+    line-height: 2.1;
+    padding: 0 0 2.5vh 0;
+  }
+  html body main .about .about-btn a {
+    font-size: 5rem;
+    padding: 5.5rem 10rem;
+  }
+  html body main .works {
+    background: #F6F6F6;
+    height: 76vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 66vh;
+  }
+  html body main .works header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .works header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .works .works-row {
+    height: 75%;
+  }
+  html body main .skills {
+    background: #ffffff;
+    height: 53vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 43vh;
+  }
+  html body main .skills header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .skills header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .skills .skills-table {
+    height: 80%;
+    width: 80%;
+    padding: 0 0 5vh 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-self: center;
+    align-self: center;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 35%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 35%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 35%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 35%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 35%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 35%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body footer {
+    background: #F6F6F6;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 30vh;
+  }
+  html body footer header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body footer header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body footer .footer-main .footer-main_contact h1 {
+    font-size: 5rem;
+  }
+  html body footer .footer-main .footer-main_contact a {
+    font-size: 3.5rem;
+  }
+  html body footer .footer-main_followme > h1 {
+    font-size: 5rem !important;
+  }
+  html body footer .footer-main_followme .footer-main_followme__sn a {
+    padding: 1rem;
+    font-size: 3.5rem !important;
+  }
+  html body footer .footer-main_followme p {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 2560px) and (max-width: 4095px) {
+  html body > header .menu-name a {
+    font-size: 3rem;
+  }
+  html body > header .menu-bar .nav-menu a {
+    font-size: 1.5rem;
+  }
+  html body > header .menu-bar .nav-menu a:nth-child(2) {
+    padding: 0 3.5rem;
+  }
+  html body > header .menu-bar .nav-menu a:nth-last-child(1) h1 {
+    font-size: 1.5rem;
+  }
+  html body main .home .home-content img {
+    width: 15vh;
+    height: 15vh;
+  }
+  html body main .home .home-content .home-name h1 {
+    font-size: 7rem;
+  }
+  html body main .home .home-content .home-name p {
+    font-size: 3.5rem;
+  }
+  html body main .about {
+    background: #ffffff;
+    height: 53vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 28vh 13vh;
+  }
+  html body main .about header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .about header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .about .about-text {
+    width: 70%;
+  }
+  html body main .about .about-text p {
+    font-size: 2.75rem;
+    line-height: 2.1;
+    padding: 0 0 2.5vh 0;
+  }
+  html body main .about .about-btn a {
+    font-size: 2.5rem;
+    padding: 2.5rem 5rem;
+  }
+  html body main .works {
+    background: #F6F6F6;
+    height: 76vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 66vh;
+  }
+  html body main .works header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .works header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .skills {
+    background: #ffffff;
+    height: 53vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 43vh;
+  }
+  html body main .skills header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .skills header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .skills .skills-table {
+    height: 80%;
+    width: 60%;
+    padding: 0 0 5vh 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-self: center;
+    align-self: center;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 45%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 45%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 45%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 45%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 45%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 45%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body footer {
+    background: #F6F6F6;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 30vh;
+  }
+  html body footer header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body footer header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body footer .footer-main .footer-main_contact h1 {
+    font-size: 3rem;
+  }
+  html body footer .footer-main .footer-main_contact a {
+    font-size: 2rem;
+  }
+  html body footer .footer-main_followme > h1 {
+    font-size: 3rem !important;
+  }
+  html body footer .footer-main_followme .footer-main_followme__sn a {
+    padding: 1rem 0.1rem;
+    font-size: 2rem !important;
+  }
+  html body footer .footer-main_followme p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+  html body > header .menu-name a {
+    font-size: 2.5rem;
+  }
+  html body > header .menu-bar .nav-menu a {
+    font-size: 1.25rem;
+  }
+  html body > header .menu-bar .nav-menu a:nth-child(2) {
+    padding: 0 2.5rem;
+  }
+  html body > header .menu-bar .nav-menu a:nth-last-child(1) h1 {
+    font-size: 1.25rem;
+  }
+  html body main .home .home-content img {
+    width: 15vh;
+    height: 15vh;
+  }
+  html body main .home .home-content .home-name h1 {
+    font-size: 5.5rem;
+  }
+  html body main .home .home-content .home-name p {
+    font-size: 2.5rem;
+  }
+  html body main .about {
+    background: #ffffff;
+    height: 53vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 28vh 13vh;
+  }
+  html body main .about header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .about header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .about .about-text {
+    width: 70%;
+  }
+  html body main .about .about-text p {
+    font-size: 2.25rem;
+    line-height: 2;
+    padding: 0 0 2vh 0;
+  }
+  html body main .about .about-btn a {
+    font-size: 2rem;
+    padding: 2rem 4rem;
+  }
+  html body main .works {
+    background: #F6F6F6;
+    height: 76vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 66vh;
+  }
+  html body main .works header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .works header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .skills {
+    background: #ffffff;
+    height: 53vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 43vh;
+  }
+  html body main .skills header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .skills header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .skills .skills-table {
+    height: 90%;
+    width: 65%;
+    padding: 0 0 5vh 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-self: center;
+    align-self: center;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 50%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 50%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 50%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 50%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 50%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 50%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body footer {
+    background: #F6F6F6;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 30vh;
+  }
+  html body footer header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body footer header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body footer .footer-main .footer-main_contact h1 {
+    font-size: 2.5rem;
+  }
+  html body footer .footer-main .footer-main_contact a {
+    font-size: 1.85rem;
+  }
+  html body footer .footer-main_followme > h1 {
+    font-size: 2.5rem !important;
+  }
+  html body footer .footer-main_followme .footer-main_followme__sn a {
+    padding: 0.5rem 0.1rem;
+    font-size: 2rem !important;
+  }
+  html body footer .footer-main_followme p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+  html body > header .menu-name a {
+    font-size: 1.5rem;
+    padding: 0 1.15rem 0 2rem;
+  }
+  html body > header .menu-bar .nav-menu a {
+    font-size: 0.75rem;
+  }
+  html body > header .menu-bar .nav-menu a:nth-child(2) {
+    padding: 0 1.5rem;
+  }
+  html body > header .menu-bar .nav-menu a:nth-last-child(1) h1 {
+    font-size: 1rem;
+  }
+  html body main .home .home-content img {
+    width: 15vh;
+    height: 15vh;
+  }
+  html body main .home .home-content .home-name h1 {
+    font-size: 4rem;
+  }
+  html body main .home .home-content .home-name p {
+    font-size: 2rem;
+  }
+  html body main .about {
+    background: #ffffff;
+    height: 53vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 28vh 13vh;
+  }
+  html body main .about header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .about header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .about .about-text {
+    width: 60%;
+  }
+  html body main .about .about-text p {
+    font-size: 1.5rem;
+    line-height: 2.1;
+    padding: 0 0 2vh 0;
+  }
+  html body main .about .about-btn a {
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+  }
+  html body main .works {
+    background: #F6F6F6;
+    height: 76vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 66vh;
+  }
+  html body main .works header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .works header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .works .works-row {
+    height: 75%;
+  }
+  html body main .skills {
+    background: #ffffff;
+    height: 53vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 43vh;
+  }
+  html body main .skills header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .skills header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .skills .skills-table {
+    height: 90%;
+    width: 65%;
+    padding: 0 0 5vh 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-self: center;
+    align-self: center;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body footer {
+    background: #F6F6F6;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 30vh;
+  }
+  html body footer header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body footer header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body footer .footer-main .footer-main_contact h1 {
+    font-size: 1.75rem;
+  }
+  html body footer .footer-main .footer-main_contact a {
+    font-size: 1rem;
+  }
+  html body footer .footer-main_followme > h1 {
+    font-size: 1.75rem !important;
+  }
+  html body footer .footer-main_followme .footer-main_followme__sn a {
+    padding: 0.5rem 0.1rem;
+    font-size: 1.1rem !important;
+  }
+  html body footer .footer-main_followme p {
+    font-size: 0.75rem;
+  }
+}
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
   html {
     font-family: "Montserrat", sans-serif;
@@ -1342,7 +2880,7 @@ html body footer .footer-main .footer-main_followme p {
     border: none;
   }
   html body main .home {
-    height: 25vh;
+    height: 45vh;
   }
   html body main .home .home-content {
     grid-template-columns: 1.15fr 1.85fr;
@@ -1354,8 +2892,8 @@ html body footer .footer-main .footer-main_followme p {
     display: grid;
     justify-self: end;
     align-self: center;
-    width: 20vh;
-    height: 20vh;
+    width: 30vh;
+    height: 30vh;
     border-radius: 50%;
     box-shadow: 0 0 0 0.3rem white, 0 0 0 0.35rem rgba(0, 0, 0, 0.1);
   }
@@ -1387,10 +2925,10 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .about {
     background: #ffffff;
-    height: 65vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 40vh 15vh;
+    grid-template-rows: 10vh 55vh 25vh;
   }
   html body main .about header {
     display: grid;
@@ -1410,12 +2948,12 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .about .about-text p {
     font-size: 1.25rem;
-    line-height: 1.5;
+    line-height: 2.5rem;
   }
   html body main .about .about-btn a {
-    font-size: 1rem;
     transition: none;
-    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    padding: 1rem 1rem;
   }
   html body main .about .about-btn a:hover {
     background: #ffffff;
@@ -1446,13 +2984,13 @@ html body footer .footer-main .footer-main_followme p {
     padding: 0 0 5% 0;
   }
   html body main .works .works-row {
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0;
-    padding: 5vh 0 0 0;
+    padding: 2.5vh 0 0 0;
   }
   html body main .works .works-row a {
     height: 90%;
@@ -1501,7 +3039,7 @@ html body footer .footer-main .footer-main_followme p {
     font-size: 1.25rem;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside {
-    height: 40%;
+    height: 70%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside .unit-inside {
     width: 80%;
@@ -1517,7 +3055,7 @@ html body footer .footer-main .footer-main_followme p {
     font-size: 1.25rem;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside {
-    height: 40%;
+    height: 70%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside .unit-inside {
     width: 70%;
@@ -1533,7 +3071,7 @@ html body footer .footer-main .footer-main_followme p {
     font-size: 1.25rem;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside {
-    height: 40%;
+    height: 70%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside .unit-inside {
     width: 30%;
@@ -1549,7 +3087,7 @@ html body footer .footer-main .footer-main_followme p {
     font-size: 1.25rem;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside {
-    height: 40%;
+    height: 70%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside .unit-inside {
     width: 40%;
@@ -1565,7 +3103,7 @@ html body footer .footer-main .footer-main_followme p {
     font-size: 1.25rem;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside {
-    height: 40%;
+    height: 70%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside .unit-inside {
     width: 70%;
@@ -1581,7 +3119,7 @@ html body footer .footer-main .footer-main_followme p {
     font-size: 1.25rem;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside {
-    height: 40%;
+    height: 70%;
   }
   html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside .unit-inside {
     width: 60%;
@@ -1632,11 +3170,15 @@ html body footer .footer-main .footer-main_followme p {
     font-size: 1.25rem;
   }
   html body footer .footer-main .footer-main_followme .footer-main_followme__sn a {
+    font-size: 1rem;
     transition: none;
   }
   html body footer .footer-main .footer-main_followme .footer-main_followme__sn a:hover {
     color: #ffffff;
     transform: none;
+  }
+  html body footer .footer-main .footer-main_followme p {
+    font-size: 0.75rem;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -1652,7 +3194,7 @@ html body footer .footer-main .footer-main_followme p {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
-    padding: 0.0227rem 0 0 0;
+    padding: 0.0227rem 0 0 0.5rem;
   }
   html body > header .menu-bar .nav-menu {
     display: grid;
@@ -1673,53 +3215,55 @@ html body footer .footer-main .footer-main_followme p {
     border: none;
   }
   html body main .home {
-    height: 25vh;
+    height: 45vh;
   }
   html body main .home .home-content {
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-content: center;
-    gap: 1.5vh;
-    height: 100%;
-    padding: 5vh 10% 5vh 0;
+    grid-template-columns: 1.15fr 1.85fr;
+    grid-template-rows: 1fr;
+    gap: 10vh;
+    padding: 0 10vh 0 0;
   }
   html body main .home .home-content img {
     display: grid;
-    justify-self: center;
+    justify-self: end;
     align-self: center;
-    width: 20vh;
-    height: 20vh;
+    width: 30vh;
+    height: 30vh;
     border-radius: 50%;
     box-shadow: 0 0 0 0.3rem white, 0 0 0 0.35rem rgba(0, 0, 0, 0.1);
   }
   html body main .home .home-content .home-name {
+    padding: 5vh 0 0 0;
     height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 1vh;
     color: #2B2B2B;
   }
   html body main .home .home-content .home-name h1 {
     display: grid;
-    justify-content: center;
+    justify-content: start;
     align-content: end;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
+    width: 100%;
   }
   html body main .home .home-content .home-name p {
     display: grid;
-    justify-content: center;
+    justify-content: start;
     align-content: start;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 400;
+    width: 100%;
   }
   html body main .about {
     background: #ffffff;
-    height: 65vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 40vh 13vh;
+    grid-template-rows: 10vh 50vh 20vh;
   }
   html body main .about header {
     display: grid;
@@ -1735,16 +3279,19 @@ html body footer .footer-main .footer-main_followme p {
     padding: 0 0 5% 0;
   }
   html body main .about .about-text {
-    width: 95%;
-    padding: 0 0 0 0;
+    width: 90%;
   }
   html body main .about .about-text p {
     font-size: 1rem;
+    line-height: 2.1rem;
+  }
+  html body main .about .about-btn {
+    padding: 0 0 3vh 0;
   }
   html body main .about .about-btn a {
-    font-size: 0.75rem;
     transition: none;
-    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    padding: 1rem 1rem;
   }
   html body main .about .about-btn a:hover {
     background: #ffffff;
@@ -1993,7 +3540,7 @@ html body footer .footer-main .footer-main_followme p {
     display: grid;
     justify-content: center;
     align-content: center;
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 900;
   }
   html body > header .menu-bar .nav-menu a:nth-last-child(1):hover {
@@ -2003,15 +3550,8 @@ html body footer .footer-main .footer-main_followme p {
   html body > header .menu-bar .nav-menu a:nth-last-child(1):active {
     opacity: 1;
   }
-  html body main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    z-index: 0;
-    padding: 7vh 0 0 0;
-  }
   html body main .home {
-    height: 40vh;
+    height: 45vh;
   }
   html body main .home .home-content {
     justify-content: center;
@@ -2050,15 +3590,37 @@ html body footer .footer-main .footer-main_followme p {
     font-size: 1.2rem;
     font-weight: 400;
   }
+  html body main .about {
+    background: #ffffff;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 40vh 15vh;
+  }
+  html body main .about header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .about header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
   html body main .about .about-text {
     width: 90%;
-    padding: 0 0 2.5% 0;
   }
   html body main .about .about-text p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    line-height: 2.25rem;
   }
   html body main .about .about-btn a {
     transition: none;
+    font-size: 1rem;
+    padding: 1rem 1rem;
   }
   html body main .about .about-btn a:hover {
     background: #ffffff;
@@ -2070,10 +3632,10 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .works {
     background: #F6F6F6;
-    height: 93vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 83vh;
+    grid-template-rows: 10vh 140vh;
   }
   html body main .works header {
     display: grid;
@@ -2209,7 +3771,11 @@ html body footer .footer-main .footer-main_followme p {
     font-size: 1.25rem;
     font-weight: 100;
   }
+  html body footer .footer-main .footer-main_contact h1 {
+    font-size: 1rem;
+  }
   html body footer .footer-main .footer-main_contact a {
+    font-size: 0.9rem;
     transition: none;
   }
   html body footer .footer-main .footer-main_contact a:hover {
@@ -2218,12 +3784,27 @@ html body footer .footer-main .footer-main_followme p {
   html body footer .footer-main .footer-main_contact a:active {
     opacity: 1;
   }
+  html body footer .footer-main .footer-main_followme {
+    gap: 2vh;
+  }
+  html body footer .footer-main .footer-main_followme > h1 {
+    font-size: 1.25rem;
+  }
+  html body footer .footer-main .footer-main_followme .footer-main_followme__sn {
+    gap: 3%;
+    margin: 0 auto;
+  }
   html body footer .footer-main .footer-main_followme .footer-main_followme__sn a {
+    font-size: 0.95rem;
+    font-weight: 500;
     transition: none;
   }
   html body footer .footer-main .footer-main_followme .footer-main_followme__sn a:hover {
     color: #ffffff;
     transform: none;
+  }
+  html body footer .footer-main .footer-main_followme p {
+    font-size: 0.75rem;
   }
 }
 @media screen and (max-width: 320px) {
@@ -2232,7 +3813,7 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body > header {
     display: none;
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem;
     display: grid;
     grid-template-columns: 3fr 1fr;
   }
@@ -2249,25 +3830,14 @@ html body footer .footer-main .footer-main_followme p {
     font-weight: 700;
     padding: 0.05rem 0 0 0.5rem;
   }
-  html body > header .menu-bar .nav-menu {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
   html body > header .menu-bar .nav-menu a:not(:nth-last-child(1)) {
     display: none;
   }
   html body > header .menu-bar .nav-menu a:nth-last-child(1) {
-    background: #e02020;
-    color: #ffffff;
     transition: none;
   }
   html body > header .menu-bar .nav-menu a:nth-last-child(1) h1 {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    font-size: 0.8rem;
-    font-weight: 900;
+    font-size: 0.85em;
   }
   html body > header .menu-bar .nav-menu a:nth-last-child(1):hover {
     background: #2B2B2B;
@@ -2276,58 +3846,46 @@ html body footer .footer-main .footer-main_followme p {
   html body > header .menu-bar .nav-menu a:nth-last-child(1):active {
     opacity: 1;
   }
-  html body main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    z-index: 0;
-    padding: 7vh 0 0 0;
-  }
   html body main .home {
-    height: 40vh;
-  }
-  html body main .home .home-content {
-    justify-content: center;
-    align-content: center;
-    gap: 3vh;
-    height: 100%;
-    padding: 6vh 0 5vh 0;
-  }
-  html body main .home .home-content img {
-    display: grid;
-    justify-self: center;
-    align-self: center;
-    width: 15vh;
-    height: 15vh;
-    border-radius: 50%;
-    box-shadow: 0 0 0 0.5rem white, 0 0 0 0.6rem rgba(0, 0, 0, 0.1);
-  }
-  html body main .home .home-content .home-name {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr;
-    gap: 1vh;
-    color: #2B2B2B;
+    height: 45vh;
   }
   html body main .home .home-content .home-name h1 {
-    display: grid;
-    justify-content: center;
-    align-content: end;
     font-size: 2.5rem;
     font-weight: 700;
   }
   html body main .home .home-content .home-name p {
-    display: grid;
-    justify-content: center;
-    align-content: start;
     font-size: 1.2rem;
     font-weight: 400;
   }
+  html body main .about {
+    background: #ffffff;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 50vh 15vh;
+  }
+  html body main .about header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .about header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
   html body main .about .about-text {
-    width: 90%;
+    width: 95%;
   }
   html body main .about .about-text p {
-    font-size: 0.87rem;
+    font-size: 1rem;
+    line-height: 2.1rem;
+  }
+  html body main .about .about-btn {
+    padding: 0 0 3vh 0;
   }
   html body main .about .about-btn a {
     transition: none;
@@ -2344,10 +3902,10 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .works {
     background: #F6F6F6;
-    height: 93vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 83vh;
+    grid-template-rows: 10vh 140vh;
   }
   html body main .works header {
     display: grid;
@@ -2361,26 +3919,6 @@ html body footer .footer-main .footer-main_followme p {
   html body main .works header h1 {
     border-bottom: 0.1rem solid #e02020;
     padding: 0 0 5% 0;
-  }
-  html body main .works .works-row {
-    height: 95%;
-    width: 80%;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    gap: 5%;
-    align-self: start;
-  }
-  html body main .works .works-row a {
-    transition: none;
-    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
-  }
-  html body main .works .works-row a:hover {
-    box-shadow: none;
-    transform: none;
-  }
-  html body main .works .works-row a:active {
-    opacity: 1;
   }
   html body main .skills .skills-table {
     width: 88%;
@@ -2482,7 +4020,11 @@ html body footer .footer-main .footer-main_followme p {
     font-size: 1.1rem;
     font-weight: 100;
   }
+  html body footer .footer-main .footer-main_contact h1 {
+    font-size: 1rem;
+  }
   html body footer .footer-main .footer-main_contact a {
+    font-size: 0.9rem;
     transition: none;
   }
   html body footer .footer-main .footer-main_contact a:hover {
@@ -2491,21 +4033,27 @@ html body footer .footer-main .footer-main_followme p {
   html body footer .footer-main .footer-main_contact a:active {
     opacity: 1;
   }
+  html body footer .footer-main .footer-main_followme {
+    gap: 2vh;
+  }
+  html body footer .footer-main .footer-main_followme > h1 {
+    font-size: 1.25rem;
+  }
   html body footer .footer-main .footer-main_followme .footer-main_followme__sn {
     gap: 3%;
     margin: 0 auto;
-    width: 89%;
   }
   html body footer .footer-main .footer-main_followme .footer-main_followme__sn a {
-    display: grid;
-    justify-self: center;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 500;
     transition: none;
   }
   html body footer .footer-main .footer-main_followme .footer-main_followme__sn a:hover {
     color: #ffffff;
     transform: none;
+  }
+  html body footer .footer-main .footer-main_followme p {
+    font-size: 0.75rem;
   }
 }
 

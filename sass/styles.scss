@@ -263,6 +263,9 @@ html {
             // border: .5rem solid purple;
             background: $color-white;
             transition: all 1s;
+            img {
+              width: 100%;
+            }
             &:hover {
               box-shadow: 0rem 1rem 2rem -1rem rgba($color: $color-black, $alpha: .25);
               transition: all 1s;
