@@ -250,7 +250,7 @@ html body main .about .about-btn a:hover {
   color: #2B2B2B;
 }
 html body main .about .about-btn a:active {
-  background: #e02020;
+  background: #ffffff;
 }
 html body main .works {
   background: #F6F6F6;
@@ -1104,10 +1104,10 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .works {
     background: #F6F6F6;
-    height: 76vh;
+    height: 50vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 66vh;
+    grid-template-rows: 10vh 40vh;
   }
   html body main .works header {
     display: grid;
@@ -1121,6 +1121,35 @@ html body footer .footer-main .footer-main_followme p {
   html body main .works header h1 {
     border-bottom: 0.1rem solid #e02020;
     padding: 0 0 5% 0;
+  }
+  html body main .works .works-row {
+    height: 85%;
+    width: 95%;
+    gap: 2vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-self: start;
+    margin: 1vh 0 0 0;
+  }
+  html body main .works .works-row a {
+    background: #ffffff;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+  }
+  html body main .works .works-row a img {
+    width: 100%;
+    height: 100%;
+  }
+  html body main .works .works-row a:hover {
+    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+    transition: all 1s;
+    transform: scale(1.05);
+  }
+  html body main .works .works-row a:active {
+    opacity: 0.75;
   }
   html body main .skills {
     background: #ffffff;
@@ -1486,10 +1515,10 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .works {
     background: #F6F6F6;
-    height: 76vh;
+    height: 65vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 66vh;
+    grid-template-rows: 10vh 55vh;
   }
   html body main .works header {
     display: grid;
@@ -1503,6 +1532,35 @@ html body footer .footer-main .footer-main_followme p {
   html body main .works header h1 {
     border-bottom: 0.1rem solid #e02020;
     padding: 0 0 5% 0;
+  }
+  html body main .works .works-row {
+    height: 85%;
+    width: 90%;
+    gap: 2vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-self: start;
+    margin: 1vh 0 0 0;
+  }
+  html body main .works .works-row a {
+    background: #ffffff;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+  }
+  html body main .works .works-row a img {
+    width: 100%;
+    height: 100%;
+  }
+  html body main .works .works-row a:hover {
+    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+    transition: all 1s;
+    transform: scale(1.05);
+  }
+  html body main .works .works-row a:active {
+    opacity: 0.75;
   }
   html body main .skills {
     background: #ffffff;
@@ -1869,10 +1927,10 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .works {
     background: #F6F6F6;
-    height: 76vh;
+    height: 70vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 66vh;
+    grid-template-rows: 10vh 60vh;
   }
   html body main .works header {
     display: grid;
@@ -1888,7 +1946,445 @@ html body footer .footer-main .footer-main_followme p {
     padding: 0 0 5% 0;
   }
   html body main .works .works-row {
-    height: 75%;
+    height: 76%;
+    width: 80%;
+    gap: 2vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-self: start;
+    margin: 5vh 0 0 0;
+  }
+  html body main .works .works-row a {
+    background: #ffffff;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+  }
+  html body main .works .works-row a img {
+    width: 100%;
+    height: 100%;
+  }
+  html body main .works .works-row a:hover {
+    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+    transition: all 1s;
+    transform: scale(1.05);
+  }
+  html body main .works .works-row a:active {
+    opacity: 0.75;
+  }
+  html body main .skills {
+    background: #ffffff;
+    height: 53vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 43vh;
+  }
+  html body main .skills header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .skills header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .skills .skills-table {
+    height: 90%;
+    width: 65%;
+    padding: 0 0 5vh 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-self: center;
+    align-self: center;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(1) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(2) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(3) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(4) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(5) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 1fr;
+    gap: 3%;
+    color: #2B2B2B;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-header {
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside {
+    display: grid;
+    align-self: center;
+    width: 100%;
+    height: 40%;
+    background: #c4c4c4;
+    display: grid;
+    transition: all 0.5s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-outside .unit-inside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background: #2B2B2B;
+    transition: all 0.25s;
+  }
+  html body main .skills .skills-table .skills-table_unit:nth-child(6) .unit-percent {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #2B2B2B;
+  }
+  html body footer {
+    background: #F6F6F6;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 30vh;
+  }
+  html body footer header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body footer header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body footer .footer-main .footer-main_contact h1 {
+    font-size: 1.75rem;
+  }
+  html body footer .footer-main .footer-main_contact a {
+    font-size: 1rem;
+  }
+  html body footer .footer-main_followme > h1 {
+    font-size: 1.75rem !important;
+  }
+  html body footer .footer-main_followme .footer-main_followme__sn a {
+    padding: 0.5rem 0.1rem;
+    font-size: 1.1rem !important;
+  }
+  html body footer .footer-main_followme p {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+  html body > header .menu-name a {
+    font-size: 1.5rem;
+    padding: 0 1.15rem 0 2rem;
+  }
+  html body > header .menu-bar .nav-menu a {
+    font-size: 0.75rem;
+  }
+  html body > header .menu-bar .nav-menu a:nth-child(2) {
+    padding: 0 1.5rem;
+  }
+  html body > header .menu-bar .nav-menu a:nth-last-child(1) h1 {
+    font-size: 1rem;
+  }
+  html body main .home .home-content img {
+    width: 15vh;
+    height: 15vh;
+  }
+  html body main .home .home-content .home-name h1 {
+    font-size: 4rem;
+  }
+  html body main .home .home-content .home-name p {
+    font-size: 2rem;
+  }
+  html body main .about {
+    background: #ffffff;
+    height: 53vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 28vh 13vh;
+  }
+  html body main .about header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .about header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .about .about-text {
+    width: 60%;
+  }
+  html body main .about .about-text p {
+    font-size: 1.5rem;
+    line-height: 2.1;
+    padding: 0 0 2vh 0;
+  }
+  html body main .about .about-btn a {
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+  }
+  html body main .works {
+    background: #F6F6F6;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 50vh;
+  }
+  html body main .works header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2B2B;
+  }
+  html body main .works header h1 {
+    border-bottom: 0.1rem solid #e02020;
+    padding: 0 0 5% 0;
+  }
+  html body main .works .works-row {
+    height: 76%;
+    width: 80%;
+    gap: 2vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-self: start;
+    margin: 5vh 0 0 0;
+  }
+  html body main .works .works-row a {
+    background: #ffffff;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+  }
+  html body main .works .works-row a img {
+    width: 100%;
+    height: 100%;
+  }
+  html body main .works .works-row a:hover {
+    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+    transition: all 1s;
+    transform: scale(1.05);
+  }
+  html body main .works .works-row a:active {
+    opacity: 0.75;
   }
   html body main .skills {
     background: #ffffff;
@@ -2316,10 +2812,10 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .works {
     background: #F6F6F6;
-    height: 150vh;
+    height: 60vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 140vh;
+    grid-template-rows: 10vh 50vh;
   }
   html body main .works header {
     display: grid;
@@ -2335,35 +2831,40 @@ html body footer .footer-main .footer-main_followme p {
     padding: 0 0 5% 0;
   }
   html body main .works .works-row {
-    height: 100%;
-    width: 100%;
+    height: 85%;
+    width: 95%;
+    gap: 2vh;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    gap: 0;
-    padding: 0 0 5vh 0;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-self: start;
+    margin: 1vh 0 0 0;
   }
   html body main .works .works-row a {
-    height: 40vh;
-    width: 70%;
-    display: grid;
-    justify-self: center;
-    transition: none;
-    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+    background: #ffffff;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+  }
+  html body main .works .works-row a img {
+    width: 100%;
+    height: 100%;
   }
   html body main .works .works-row a:hover {
-    box-shadow: none;
-    transform: none;
+    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+    transition: all 1s;
+    transform: scale(1.05);
   }
   html body main .works .works-row a:active {
-    opacity: 1;
+    opacity: 0.75;
   }
   html body main .skills {
     background: #ffffff;
-    height: 50vh;
+    height: 51vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 40vh;
+    grid-template-rows: 10vh 41vh;
   }
   html body main .skills header {
     display: grid;
@@ -2641,10 +3142,10 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .works {
     background: #F6F6F6;
-    height: 150vh;
+    height: 42vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 140vh;
+    grid-template-rows: 10vh 32vh;
   }
   html body main .works header {
     display: grid;
@@ -2660,35 +3161,39 @@ html body footer .footer-main .footer-main_followme p {
     padding: 0 0 5% 0;
   }
   html body main .works .works-row {
-    height: 100%;
-    width: 100%;
+    height: 89.25%;
+    width: 95%;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    gap: 0;
-    padding: 0 0 5vh 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2vh;
+    justify-items: center;
+    align-self: start;
   }
   html body main .works .works-row a {
-    height: 40vh;
-    width: 70%;
-    display: grid;
-    justify-self: center;
-    transition: none;
-    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+    background: #ffffff;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+  }
+  html body main .works .works-row a img {
+    width: 100%;
+    height: 100%;
   }
   html body main .works .works-row a:hover {
-    box-shadow: none;
-    transform: none;
+    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+    transition: all 1s;
+    transform: scale(1.05);
   }
   html body main .works .works-row a:active {
-    opacity: 1;
+    opacity: 0.75;
   }
   html body main .skills {
     background: #ffffff;
-    height: 50vh;
+    height: 51vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 40vh;
+    grid-template-rows: 10vh 41vh;
   }
   html body main .skills header {
     display: grid;
@@ -3322,7 +3827,7 @@ html body footer .footer-main .footer-main_followme p {
     padding: 0 0 5% 0;
   }
   html body main .works .works-row {
-    height: 95%;
+    height: 90%;
     width: 90%;
     display: grid;
     grid-template-rows: 1fr;
@@ -3331,9 +3836,13 @@ html body footer .footer-main .footer-main_followme p {
     gap: 3%;
   }
   html body main .works .works-row a {
-    height: 50vh;
+    height: 75%;
     transition: none;
     box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+  }
+  html body main .works .works-row a img {
+    width: 100%;
+    height: 100%;
   }
   html body main .works .works-row a:hover {
     box-shadow: none;
@@ -3632,10 +4141,10 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .works {
     background: #F6F6F6;
-    height: 150vh;
+    height: 160vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 140vh;
+    grid-template-rows: 10vh 150vh;
   }
   html body main .works header {
     display: grid;
@@ -3651,24 +4160,32 @@ html body footer .footer-main .footer-main_followme p {
     padding: 0 0 5% 0;
   }
   html body main .works .works-row {
-    height: 95%;
-    width: 80%;
+    height: 98%;
+    width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    gap: 5%;
-    align-self: start;
+    gap: 2.5vh;
+    justify-items: center;
+    align-self: center;
   }
   html body main .works .works-row a {
-    transition: none;
-    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+    background: #ffffff;
+    transition: all 1s;
+    height: 95%;
+    width: 80%;
+  }
+  html body main .works .works-row a img {
+    width: 100%;
+    height: 100%;
   }
   html body main .works .works-row a:hover {
-    box-shadow: none;
-    transform: none;
+    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+    transition: all 1s;
+    transform: scale(1.05);
   }
   html body main .works .works-row a:active {
-    opacity: 1;
+    opacity: 0.75;
   }
   html body main .skills .skills-table {
     height: 80%;
@@ -3902,10 +4419,10 @@ html body footer .footer-main .footer-main_followme p {
   }
   html body main .works {
     background: #F6F6F6;
-    height: 150vh;
+    height: 160vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 140vh;
+    grid-template-rows: 10vh 150vh;
   }
   html body main .works header {
     display: grid;
@@ -3919,6 +4436,34 @@ html body footer .footer-main .footer-main_followme p {
   html body main .works header h1 {
     border-bottom: 0.1rem solid #e02020;
     padding: 0 0 5% 0;
+  }
+  html body main .works .works-row {
+    height: 98%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 2.5vh;
+    justify-items: center;
+    align-self: center;
+  }
+  html body main .works .works-row a {
+    background: #ffffff;
+    transition: all 1s;
+    height: 95%;
+    width: 80%;
+  }
+  html body main .works .works-row a img {
+    width: 100%;
+    height: 100%;
+  }
+  html body main .works .works-row a:hover {
+    box-shadow: 0rem 1rem 2rem -1rem rgba(43, 43, 43, 0.25);
+    transition: all 1s;
+    transform: scale(1.05);
+  }
+  html body main .works .works-row a:active {
+    opacity: 0.75;
   }
   html body main .skills .skills-table {
     width: 88%;
