@@ -1,0 +1,425 @@
+@import 'clear';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300,700;0,500;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
+
+@font-face {
+    font-family: 'DS-Digital';
+    // src: url('/fonts/ds_digital/DS-DIGI.TTF') format('truetype');
+    src: url('/works/CasioWatch/fonts/ds_digital/DS-DIGI.TTF') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'DS-DigitalBold';
+    // src: url('/fonts/ds_digital/DS-DIGIB.TTF') format('truetype');
+    src: url('/works/CasioWatch/fonts/ds_digital/DS-DIGIB.TTF') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+html {
+    body {
+        header {
+            // border: 1px solid red;
+            background-color: white;
+            color: blue;
+            width: 100%;
+            height: 10vh;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            box-shadow: 0 0 0 1rem blue,
+                        0 0 0 1.1rem white,
+                        0 0 0 2.1rem black;
+            h1 {
+                font: {
+                    size: 4rem;
+                    weight: 700;
+                    text-align: center;
+                    family: 'Rajdhani', sans-serif;
+                }
+                text-shadow: 0 0 .1rem black;
+            }
+        }
+        main {
+            width: 80%;
+            height: 90vh;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr;
+            margin: 0 auto;
+            section {
+                // border: 1px solid green;
+                width: 100%;
+                height: 100%;
+                &:nth-child(1) { //FIRST SECTION
+                    display: grid;
+                    justify-items: right;
+                    align-items: center;
+                    // border: 2px solid red;
+                    article {
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        grid-template-rows: 5fr 2fr 10fr 7fr;
+                        height: 24rem;
+                        width: 23rem;
+                        border-radius: 5rem;
+                        background-color: #000;
+                        box-shadow: 
+                            inset 0 0 0 10px #000,
+                            inset 0 0 0 15px blue,
+                            inset 0 0 0 19px #000,
+                            inset 0 0 0 21px #fff;
+                        // margin: 0;
+                        padding: 1.5rem 2.5rem;
+                        margin: 2rem;
+                        >div {
+                            color: #fff;
+                            // border: 1px solid red;
+                            &:nth-child(1) {
+                                display: grid;
+                                grid-template-rows: 1fr;
+                                grid-template-columns: 1.5fr 1fr;
+                                border-bottom: 5px solid blue;
+                                margin-top: .5rem;
+                                h1 {
+                                    // border: 1px solid red;
+                                    display: grid;
+                                    justify-items: center;
+                                    align-items: center;
+                                    font: {
+                                        size: 3rem;
+                                        family: 'Rajdhani', sans-serif;
+                                        weight: 700;
+                                    }
+                                }
+                                span {
+                                    // border: 1px solid red;
+                                    display: grid;
+                                    justify-items: center;
+                                    align-items: center;
+                                    color: yellow;
+                                    // padding: 0 0 0 50px;
+                                    font: {
+                                        size: 1.2rem;
+                                        family: 'Rubik', sans-serif;
+                                        weight: 700;
+                                        style: italic;
+                                    }
+                                        }
+                            }
+                            &:nth-child(2) {
+                                display: grid;
+                                grid-template-rows: 1fr;
+                                grid-template-columns: 1fr 2fr;
+                                padding: 1rem 1rem;
+                                span {
+                                    // border: 1px solid green;
+                                    &:nth-child(1) {
+                                        color: #fff;
+                                        font: {
+                                            size: .6rem;
+                                            family: 'Rubik', sans-serif;
+                                            weight: 300;
+                                        }
+                                        display: grid;
+                                        grid-template-columns: 1fr 2fr;
+                                        justify-self: center;
+                                        align-self: center;
+                                        // border: 1px solid blue;
+                                        &::before {
+                                            content: "";
+                                            position: relative;
+                                            top: -.5px;
+                                            left: -8px;
+                                            width: .2rem;
+                                            height: .2rem;
+                                            border-top: .2rem solid transparent;
+                                            border-right: 1.2rem solid red;
+                                            border-bottom: .2rem solid transparent;
+                                            display: grid;
+                                            justify-self: center;
+                                            align-self: center;
+                                        }
+                                    }
+                                    &:nth-child(2) {
+                                        color: yellow;
+                                        font: {
+                                            size: .8rem;
+                                            family: 'Rubik', sans-serif;
+                                            weight: 500;
+                                        }
+                                        display: grid;
+                                        justify-content: right;
+                                        align-content: center;
+                                        padding: 0 .3rem 0 0;
+                                    }
+                                }
+                            }
+                            &:nth-child(3) {
+                                margin: .5rem 1.5rem;
+                                background-color: #e9e8e1;
+                                border-radius: 1rem;
+                                // border: 0px solid red;
+                                color: #000;
+                                box-shadow: 
+                                    0 0 0 3px #000,
+                                    0 0 0 4px #e9e8e1;
+                                display: grid;
+                                grid-template-columns: 1fr;
+                                grid-template-rows: 1fr 3fr;
+                                padding: .5rem .6rem 0 .6rem;
+                                .led-first-line {
+                                    // border: 1px solid green;
+                                    padding: 0 .5rem 0 0;
+                                    font: {
+                                        family: 'DS-DigitalBold';
+                                        size: 1.2rem;
+                                    }
+                                    display: grid;
+                                    grid-template-columns: 1fr 1fr 1fr;
+                                    grid-template-rows: 1fr;
+                                    span {
+                                        // border: 1px solid sred;
+                                        display: grid;
+                                        justify-content: end;
+                                        align-content: center;
+                                    }
+                                }
+                                .led-second-line {
+                                    // border: 1px solid blue;
+                                    display: grid;
+                                    grid-template-rows: 1fr;
+                                    // grid-template-columns: 1fr 1.8fr .2fr 1fr 1fr;
+                                    grid-template-columns: 15% 29% 7% 29% 20%;
+                                    .led-second-line--hours,
+                                    .led-second-line--minutes {
+                                        font: {
+                                            family: 'DS-DigitalBold';
+                                            size: 4rem;
+                                        }
+                                    }
+                                    .led-second-line--hours {
+                                        display: grid;
+                                        justify-content: end;
+                                        align-content: end;
+                                    }
+                                    .led-second-line--minutes {
+                                        display: grid;
+                                        justify-content: start;
+                                        align-content: end;
+                                    }
+                                    .led-second-line--ap {
+                                        font: {
+                                            size: 1.2rem;
+                                            family: 'Rubik', sans-serif;
+                                            weight: 700;
+                                        }
+                                        // border: 1px solid red;
+                                        display: grid;
+                                        justify-content: center;
+                                        align-content: end;
+                                        padding: 0 0 .5rem 0;
+                                        // display: none;
+                                    }
+                                    .led-second-line--seconds {
+                                        font: {
+                                            family: 'DS-DigitalBold';
+                                            size: 2.5rem;
+                                        }
+                                        display: grid;
+                                        justify-content: start;
+                                        align-content: end;
+                                        padding: 0 0 .35rem .3rem;
+                                        // border: 1px solid yellow;
+                                    }
+                                    span {
+                                        &:nth-child(3) {
+                                            font: {
+                                                family: 'DS-DigitalBold';
+                                                size: 4rem;
+                                            }
+                                            // border: 1px solid red;
+                                            padding: 0 0 .2rem 0;
+                                        }
+                                    }
+                                }
+                            }
+                            &:nth-child(4) {
+                                font: {
+                                    family: 'Rajdhani', sans-serif;
+                                    weight: 700;
+                                    size: 1.5rem;
+                                }
+                                display: grid;
+                                grid-template-rows: 1fr;
+                                grid-template-columns: 1fr 1fr 1fr;
+                                border-top: 5px solid blue;
+                                margin: 2.3rem 0 1rem 0;
+                                padding: 0 1rem;
+                                span {
+                                    letter-spacing: .05rem;
+                                    &:nth-child(1) {
+                                        // border: 1px solid blue;
+                                        display: grid;
+                                        justify-content: left;
+                                        align-content: center;
+                                    }
+                                    &:nth-child(2) {
+                                        position: relative;
+                                        border: 2px solid blue;
+                                        border-top-left-radius: .5rem;
+                                        border-top-right-radius: .5rem;
+                                        border-bottom-left-radius: 2rem 1rem;
+                                        border-bottom-right-radius: 2rem 1rem;
+                                        left: 0;
+                                        top: -8px;
+                                        font: {
+                                            size: 2.5rem;
+                                            family: 'Rajdhani', sans-serif;
+                                            weight: 700;
+                                        }
+                                        display: grid;
+                                        grid-template-rows: 1fr;
+                                        grid-template-columns: 1fr 1fr;
+                                        padding: .2rem .1rem .2rem .8rem;
+                                        margin: 0;
+                                        color: red;
+                                        background-color: #000;
+                                        box-shadow: 0 0 0 5px #000;
+                                        p {
+                                            &:nth-child(1) {
+                                                // border: 1px solid blue;
+                                                transform: rotate(-3deg);
+                                                display: grid;
+                                                justify-content: center;
+                                                justify-content: center;
+                                            }
+                                            &:nth-child(2) {
+                                                // border: 1px solid green;
+                                                transform: rotate(3deg);
+                                                display: grid;
+                                                justify-content: center;
+                                                justify-content: center;
+                                                width: 70%;
+                                            }
+                                        }
+                                    }
+                                    &:nth-child(3) {
+                                        // border: 1px solid green;
+                                        display: grid;
+                                        justify-content: right;
+                                        align-content: center;
+                                    }
+                                }
+                            }
+                        }
+                        .button01 {
+                            position: relative;
+                            height: 30px;
+                            width: 15px;
+                            background-color: #000;
+                            display: block;
+                            top: -231px;
+                            left: -50px;
+                            // border: 1px solid blue;
+                            // border-right: none;
+                            border-top-left-radius: .5rem;
+                            border-bottom-left-radius: .5rem;
+                            transition: all .1s ease-in-out;
+                            &:active {
+                                width: 10px;
+                                left: -45px;
+                            }
+                        }
+                    }
+                }
+                &:nth-child(2) { //SECOND SECTION
+                    display: grid;
+                    justify-content: left;
+                    align-content: center;
+                    article {
+                        border-left: .25rem solid black;
+                        padding: .5rem 2rem .5rem 2rem;
+                        // position: relative;
+                        // left: -50px;
+                        h1 {
+                            font: {
+                                size: 5rem;
+                                weight: 500;
+                                family: 'Rajdhani', sans-serif;
+                            };
+                            span {
+                                font: {
+                                    size: 2rem;
+                                }
+                            }
+                            margin: 0 0 1rem 0;
+                        }
+                        p {
+                            font: {
+                                size: 1.5rem;
+                                family: 'Rajdhani', sans-serif;
+                            };
+                            line-height: 1.5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1800px) {
+    html {
+        body{
+            main {
+                section {
+                    &:nth-child(1) {
+                        article {
+                            margin-right: 3rem;
+                        }
+                    }
+                    &:nth-child(2) {
+                        article {
+                            border-left: .25rem solid black;
+                            padding: .5rem 2rem .5rem 3rem;
+                            h1 {
+                                font-size: 7rem;
+                            }
+                            p {
+                                font-size: 1.6rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    html {
+        body{
+            main {
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                grid-template-columns: 1fr;
+                section {
+                    margin: 1rem 0;
+                    &:nth-child(1) {
+                        justify-content: center;
+                        // border: .1rem solid red;
+                        article { 
+                            margin-bottom: .1rem;
+                        }
+                    }
+                    &:nth-child(2) {
+                        article {
+                            border-top: .25rem solid black;
+                            border-left: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
